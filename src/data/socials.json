@@ -1,0 +1,26 @@
+[
+  {
+    "id": "email",
+    "label": "Email",
+    "href": "mailto:tu@email.com",
+    "icon": "Mail"
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "href": "https://linkedin.com/in/tu-usuario",
+    "icon": "LinkedInIcon"
+  },
+  {
+    "id": "github",
+    "label": "GitHub",
+    "href": "https://github.com/tu-usuario",
+    "icon": "GitHubIcon"
+  },
+  {
+    "id": "indeed",
+    "label": "Indeed",
+    "href": "https://indeed.com/in/tu-usuario",
+    "icon": "Briefcase"
+  }
+]

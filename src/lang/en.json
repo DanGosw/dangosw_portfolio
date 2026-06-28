@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "status": "Available for work",
+    "title": "Frontend Developer",
+    "subtitle": "Building scalable web applications, interactive interfaces and modern SaaS platforms.",
+    "description": "3+ years of professional experience building administrative systems, production-ready web applications and frontend architectures focused on usability, scalability and maintainability.",
+    "viewProjects": "View Projects",
+    "contact": "Contact"
+  },
+  "stack": {
+    "vue": "Vue",
+    "typeScript": "TypeScript",
+    "javaScript": "JavaScript",
+    "tailwind": "Tailwind",
+    "vite": "Vite",
+    "saas": "SaaS",
+    "uiArchitecture": "UI Architecture",
+    "shadcn": "Shadcn/vue",
+    "primevue": "PrimeVue",
+    "naiveUI": "Naive UI"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of my recent work",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "items": {
+      "zendaComercial": {
+        "title": "Zenda Comercial",
+        "description": "Electronic invoicing system with inventory and stock control. Sales, purchasing, cash register management and reports modules. Connected to SUNAT."
+      },
+      "zendaPharma": {
+        "title": "Zenda Pharma",
+        "description": "ERP system for pharmacies connected to SUNAT. User and role management, sales, products, inventory, stock control and cash register reports."
+      },
+      "flizzy": {
+        "title": "Flizzy",
+        "description": "POS system for restaurants with user roles and permissions. Sales and waiter mode to streamline orders. Input and product management, cash register reports."
+      },
+      "verydis": {
+        "title": "Verydis",
+        "description": "Field personnel management system with requirements connected to SUNAT. Attendance control, Kanban/Trello-style tasks and productivity dashboard."
+      },
+      "asTomGas": {
+        "title": "As-TomGas",
+        "description": "Landing page for a natural gas pipeline installation and maintenance company. Sale and installation of certified water heaters with technical support."
+      }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "trajectory": "Trajectory",
+    "trajectoryP1": "Over 3 years developing modern, scalable user interfaces. Specialized in Vue.js ecosystems, I have worked on administrative SaaS systems, client portals, and analytics dashboards. My focus is on creating intuitive user experiences and maintainable code.",
+    "trajectoryP2": "Throughout my career I have collaborated with development teams to build solutions ranging from landing pages to complete ERP systems connected to SUNAT, always prioritizing code quality and end-user experience.",
+    "skills": "Skills",
+    "skillsList": {
+      "frontend": "Frontend Development",
+      "frontendDesc": "Vue 3, TypeScript, Tailwind CSS, reusable components and component architecture.",
+      "uiux": "UI/UX Design",
+      "uiuxDesc": "Modern, responsive interface design focused on user experience.",
+      "performance": "Performance",
+      "performanceDesc": "Bundle optimization, lazy loading, code splitting and performance metrics.",
+      "saas": "SaaS Platforms",
+      "saasDesc": "Scalable platform development with roles, permissions and administrative modules."
+    },
+    "passions": "Hobbies",
+    "passionsList": {
+      "coding": "Coding personal projects",
+      "gaming": "Retro and modern gaming",
+      "coffee": "Loving the Dark Souls trilogy",
+      "music": "Listening to all kinds of music"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's work together?",
+    "description": "I'm available for freelance projects, full-time opportunities or just to chat about technology.",
+    "openTo": "Always open to new challenges and collaboration opportunities.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "indeed": "Indeed"
+  },
+  "footer": {
+    "copyright": "© 2026 DevRunner. All rights reserved.",
+    "builtWith": "Built with"
+  },
+  "language": {
+    "es": "Español",
+    "en": "English"
+  }
+}

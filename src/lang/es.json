@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "status": "Disponible para trabajar",
+    "title": "Desarrollador Frontend",
+    "subtitle": "Construyendo aplicaciones web escalables, interfaces interactivas y plataformas SaaS modernas.",
+    "description": "Más de 3 años de experiencia profesional construyendo sistemas administrativos, aplicaciones web en producción y arquitecturas frontend enfocadas en usabilidad, escalabilidad y mantenibilidad.",
+    "viewProjects": "Ver Proyectos",
+    "contact": "Contactar"
+  },
+  "stack": {
+    "vue": "Vue",
+    "typeScript": "TypeScript",
+    "javaScript": "JavaScript",
+    "tailwind": "Tailwind",
+    "vite": "Vite",
+    "saas": "SaaS",
+    "uiArchitecture": "Arquitectura UI",
+    "shadcn": "Shadcn/vue",
+    "primevue": "PrimeVue",
+    "naiveUI": "Naive UI"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Una selección de mis trabajos recientes",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código",
+    "items": {
+      "zendaComercial": {
+        "title": "Zenda Comercial",
+        "description": "Sistema de facturación electrónica con inventariado y control de stock. Módulos de ventas, compras, manejo y reportes de caja. Conectado a SUNAT."
+      },
+      "zendaPharma": {
+        "title": "Zenda Pharma",
+        "description": "Sistema ERP orientado a boticas conectado a SUNAT. Gestión de usuarios, roles, ventas, productos, inventariado, control de stock y reportes de caja."
+      },
+      "flizzy": {
+        "title": "Flizzy",
+        "description": "Sistema POS para restaurantes con roles y permisos por usuario. Modo de venta y mozos para agilizar pedidos. Manejo de insumos, productos y reportes de caja."
+      },
+      "verydis": {
+        "title": "Verydis",
+        "description": "Sistema de gestión de personal en campo con requerimientos conectados a SUNAT. Control de asistencias, tareas tipo Kanban/Trello y dashboard de productividad."
+      },
+      "asTomGas": {
+        "title": "As-TomGas",
+        "description": "Landing page para empresa de instalación y mantenimiento de tuberías de gas natural. Venta e instalación de calefones certificados con respaldo técnico."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "trajectory": "Trayectoria",
+    "trajectoryP1": "Más de 3 años desarrollando interfaces de usuario modernas y escalables. Especializado en ecosistemas Vue.js, he trabajado en sistemas SaaS administrativos, portales de clientes y dashboards analytics. Mi enfoque está en crear experiencias de usuario intuitivas y código mantenible.",
+    "trajectoryP2": "A lo largo de mi carrera he colaborado con equipos de desarrollo para construir soluciones que van desde landing pages hasta sistemas ERP completos conectados a SUNAT, siempre priorizando la calidad del código y la experiencia del usuario final.",
+    "skills": "Habilidades",
+    "skillsList": {
+      "frontend": "Desarrollo Frontend",
+      "frontendDesc": "Vue 3, TypeScript, Tailwind CSS, componentes reutilizables y arquitectura de componentes.",
+      "uiux": "Diseño UI/UX",
+      "uiuxDesc": "Diseño de interfaces modernas, responsivas y centradas en la experiencia del usuario.",
+      "performance": "Rendimiento",
+      "performanceDesc": "Optimización de bundle, lazy loading, code splitting y métricas de rendimiento.",
+      "saas": "Plataformas SaaS",
+      "saasDesc": "Desarrollo de plataformas escalables con roles, permisos y módulos administrativos."
+    },
+    "passions": "Pasatiempos",
+    "passionsList": {
+      "coding": "Código en proyectos personales",
+      "gaming": "Gaming retro y moderno",
+      "coffee": "Apasionado por la Saga Souls",
+      "music": "Escuchando todo tipo de música"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Trabajamos juntos?",
+    "description": "Estoy disponible para proyectos freelance, oportunidades full-time o simplemente para charlar sobre tecnología.",
+    "openTo": "Siempre abierto a nuevos retos y oportunidades de colaboración.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "indeed": "Indeed"
+  },
+  "footer": {
+    "copyright": "© 2026 DevRunner. Todos los derechos reservados.",
+    "builtWith": "Hecho con"
+  },
+  "language": {
+    "es": "Español",
+    "en": "English"
+  }
+}
