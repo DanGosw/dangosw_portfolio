@@ -6,7 +6,6 @@
     "contact": "Contact"
   },
   "hero": {
-    "status": "Available for work",
     "title": "Frontend Developer",
     "subtitle": "Building scalable web applications, interactive interfaces and modern SaaS platforms.",
     "description": "3+ years of professional experience building administrative systems, production-ready web applications and frontend architectures focused on usability, scalability and maintainability.",
@@ -27,9 +26,9 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "A selection of my recent work",
+    "work": "At Work",
+    "personal": "Personal",
     "viewProject": "View Project",
-    "viewCode": "View Code",
     "items": {
       "zendaComercial": {
         "title": "Zenda Comercial",
@@ -39,13 +38,13 @@
         "title": "Zenda Pharma",
         "description": "ERP system for pharmacies connected to SUNAT. User and role management, sales, products, inventory, stock control and cash register reports."
       },
-      "flizzy": {
-        "title": "Flizzy",
-        "description": "POS system for restaurants with user roles and permissions. Sales and waiter mode to streamline orders. Input and product management, cash register reports."
-      },
       "verydis": {
         "title": "Verydis",
         "description": "Field personnel management system with requirements connected to SUNAT. Attendance control, Kanban/Trello-style tasks and productivity dashboard."
+      },
+      "flizzy": {
+        "title": "Flizzy",
+        "description": "POS system for restaurants with user roles and permissions. Sales and waiter mode to streamline orders. Input and product management, cash register reports."
       },
       "asTomGas": {
         "title": "As-TomGas",
@@ -69,12 +68,12 @@
       "saas": "SaaS Platforms",
       "saasDesc": "Scalable platform development with roles, permissions and administrative modules."
     },
-    "passions": "Hobbies",
+    "passions": "What drives me",
     "passionsList": {
-      "coding": "Coding personal projects",
-      "gaming": "Retro and modern gaming",
-      "coffee": "Loving the Dark Souls trilogy",
-      "music": "Listening to all kinds of music"
+      "coding": "Building personal projects and experimenting with new technologies",
+      "ui": "Designing clean, functional interfaces",
+      "opensource": "Learning from open source and contributing to the community",
+      "coffee": "Caffeine as fuel for coding"
     }
   },
   "contact": {

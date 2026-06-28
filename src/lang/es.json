@@ -6,7 +6,6 @@
     "contact": "Contacto"
   },
   "hero": {
-    "status": "Disponible para trabajar",
     "title": "Desarrollador Frontend",
     "subtitle": "Construyendo aplicaciones web escalables, interfaces interactivas y plataformas SaaS modernas.",
     "description": "Más de 3 años de experiencia profesional construyendo sistemas administrativos, aplicaciones web en producción y arquitecturas frontend enfocadas en usabilidad, escalabilidad y mantenibilidad.",
@@ -27,9 +26,9 @@
   },
   "projects": {
     "title": "Proyectos",
-    "subtitle": "Una selección de mis trabajos recientes",
+    "work": "En Empresa",
+    "personal": "Personales",
     "viewProject": "Ver Proyecto",
-    "viewCode": "Ver Código",
     "items": {
       "zendaComercial": {
         "title": "Zenda Comercial",
@@ -39,13 +38,13 @@
         "title": "Zenda Pharma",
         "description": "Sistema ERP orientado a boticas conectado a SUNAT. Gestión de usuarios, roles, ventas, productos, inventariado, control de stock y reportes de caja."
       },
-      "flizzy": {
-        "title": "Flizzy",
-        "description": "Sistema POS para restaurantes con roles y permisos por usuario. Modo de venta y mozos para agilizar pedidos. Manejo de insumos, productos y reportes de caja."
-      },
       "verydis": {
         "title": "Verydis",
         "description": "Sistema de gestión de personal en campo con requerimientos conectados a SUNAT. Control de asistencias, tareas tipo Kanban/Trello y dashboard de productividad."
+      },
+      "flizzy": {
+        "title": "Flizzy",
+        "description": "Sistema POS para restaurantes con roles y permisos por usuario. Modo de venta y mozos para agilizar pedidos. Manejo de insumos, productos y reportes de caja."
       },
       "asTomGas": {
         "title": "As-TomGas",
@@ -69,12 +68,12 @@
       "saas": "Plataformas SaaS",
       "saasDesc": "Desarrollo de plataformas escalables con roles, permisos y módulos administrativos."
     },
-    "passions": "Pasatiempos",
+    "passions": "Lo que me mueve",
     "passionsList": {
-      "coding": "Código en proyectos personales",
-      "gaming": "Gaming retro y moderno",
-      "coffee": "Apasionado por la Saga Souls",
-      "music": "Escuchando todo tipo de música"
+      "coding": "Crear proyectos personales y experimentar con nuevas tecnologías",
+      "ui": "Diseñar interfaces limpias y funcionales",
+      "opensource": "Aprender de código abierto y contribuir a la comunidad",
+      "coffee": "Cafeína como combustible para programar"
     }
   },
   "contact": {

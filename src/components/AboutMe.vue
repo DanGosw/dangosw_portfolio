@@ -15,10 +15,11 @@ const stack = [
 	{ key: "primevue" },
 	{ key: "naiveUI" }
 ];
+
 </script>
 
 <template>
-	<section id="home" class="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 lg:gap-14 min-h-[55vh]">
+	<section id="home" class="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 lg:gap-14 min-h-[60vh]">
 		<!-- Profile -->
 		<div class="relative shrink-0 hero-animate hero-animate-delay-1">
 			<div class="absolute inset-0 rounded-full blur-3xl bg-indigo-500/20 scale-110 animate-glow"/>
@@ -28,17 +29,8 @@ const stack = [
 
 		<!-- Content -->
 		<div class="space-y-6 max-w-2xl">
-			<!-- status -->
-			<div class="flex gap-2.5 hero-animate hero-animate-delay-2">
-				<span class="text-label"> {{ t("hero.status") }} </span>
-				<span class="relative flex size-2.5">
-				<span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"/>
-				<span class="relative inline-flex size-2.5 rounded-full bg-green-500"></span>
-				</span>
-			</div>
-
 			<!-- title -->
-			<div class="space-y-4 hero-animate hero-animate-delay-3">
+			<div class="space-y-4 hero-animate hero-animate-delay-2">
 				<h1 class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white">
 					{{ t("hero.title") }}
 					<span class="text-shimmer">.</span>
@@ -48,14 +40,14 @@ const stack = [
 			</div>
 
 			<!-- stack -->
-			<div class="flex flex-wrap gap-2 hero-animate hero-animate-delay-4">
+			<div class="flex flex-wrap gap-2 hero-animate hero-animate-delay-3">
 				<div v-for="(item, index) in stack" :key="item.key" class="badge" :class="`delay-${(index + 1) * 100}`">
 					{{ t(`stack.${ item.key }`) }}
 				</div>
 			</div>
 
 			<!-- buttons -->
-			<div class="flex gap-4 pt-2 hero-animate hero-animate-delay-5">
+			<div class="flex gap-4 pt-2 hero-animate hero-animate-delay-4">
 				<a href="#projects" class="btn-primary">
 					{{ t("hero.viewProjects") }}
 				</a>

@@ -83,15 +83,15 @@ const skills = [
 					</li>
 					<li class="list-item">
 						<span class="list-item-marker">▹</span>
-						<span>{{ t("about.passionsList.gaming") }}</span>
+						<span>{{ t("about.passionsList.ui") }}</span>
+					</li>
+					<li class="list-item">
+						<span class="list-item-marker">▹</span>
+						<span>{{ t("about.passionsList.opensource") }}</span>
 					</li>
 					<li class="list-item">
 						<span class="list-item-marker">▹</span>
 						<span>{{ t("about.passionsList.coffee") }}</span>
-					</li>
-					<li class="list-item">
-						<span class="list-item-marker">▹</span>
-						<span>{{ t("about.passionsList.music") }}</span>
 					</li>
 				</ul>
 			</div>
