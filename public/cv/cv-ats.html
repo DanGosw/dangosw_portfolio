@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Paredes Mendoza - CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #fff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .cv {
+      max-width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 32px 36px;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      text-align: center;
+      padding-bottom: 16px;
+      border-bottom: 2px solid #1a1a1a;
+      margin-bottom: 22px;
+    }
+
+    .header-name {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1a1a1a;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .header-title {
+      font-size: 14px;
+      font-weight: 500;
+      color: #4a4a4a;
+      margin-top: 4px;
+    }
+
+    .header-contact {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 6px 0;
+      margin-top: 12px;
+      font-size: 13px;
+      color: #4a4a4a;
+    }
+
+    .header-contact a {
+      color: #1a1a1a;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .header-contact a:hover {
+      color: #4f46e5;
+      text-decoration: underline;
+    }
+
+    .separator {
+      color: #ccc;
+      margin: 0 10px;
+    }
+
+    /* ===== SECTIONS ===== */
+    .section {
+      margin-bottom: 18px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #d1d5db;
+      margin-bottom: 10px;
+    }
+
+    .section-text {
+      font-size: 13px;
+      color: #374151;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    /* ===== EXPERIENCE ===== */
+    .exp-item {
+      margin-bottom: 14px;
+    }
+
+    .exp-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+
+    .exp-role {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .exp-date {
+      font-size: 12px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    .exp-company {
+      font-size: 13px;
+      color: #6b7280;
+      font-style: italic;
+      margin-bottom: 6px;
+    }
+
+    .exp-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .exp-list li {
+      font-size: 12px;
+      color: #374151;
+      padding: 2.5px 0;
+      padding-left: 14px;
+      position: relative;
+      line-height: 1.6;
+    }
+
+    .exp-list li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: #1a1a1a;
+      font-weight: bold;
+    }
+
+    /* ===== SKILLS ===== */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 5px 14px;
+      font-size: 10.5px;
+    }
+
+    .skills-label {
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .skills-value {
+      color: #374151;
+    }
+
+    /* ===== PROJECTS ===== */
+    .project-item {
+      margin-bottom: 8px;
+    }
+
+    .project-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .project-desc {
+      font-size: 12px;
+      color: #4a4a4a;
+      line-height: 1.55;
+    }
+
+    /* ===== EDUCATION ===== */
+    .edu-item {
+      margin-bottom: 8px;
+    }
+
+    .edu-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .edu-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .edu-date {
+      font-size: 12px;
+      color: #6b7280;
+    }
+
+    .edu-institution {
+      font-size: 12px;
+      color: #6b7280;
+    }
+
+    /* ===== PRINT ===== */
+    @media print {
+      body { background: white; }
+      .cv { margin: 0; padding: 28px 32px; }
+      .header-contact a { color: #1a1a1a; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="cv">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1 class="header-name">Daniel Paredes Mendoza</h1>
+    <div class="header-title">Frontend Developer</div>
+    <div class="header-contact">
+      <span>Moyobamba, San Martín, Perú</span>
+      <span class="separator">|</span>
+      <a href="mailto:dannyslowgoswell@gmail.com">dannyslowgoswell@gmail.com</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/DanGosw" target="_blank">github.com/DanGosw</a>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/daniel-paredes-a17b89344/" target="_blank">linkedin.com/in/daniel-paredes</a>
+      <span class="separator">|</span>
+      <a href="https://dangosw.netlify.app/" target="_blank">dangosw.netlify.app</a>
+    </div>
+  </div>
+
+  <!-- PROFILE -->
+  <div class="section">
+    <h2 class="section-title">Professional Profile</h2>
+    <p class="section-text">
+      Frontend Developer with 3+ years of experience building modern web applications using Vue.js and TypeScript.
+      Specialized in SPA development, reusable component architecture, and REST API integration for SaaS platforms.
+      Proven experience in frontend architecture decisions, technical leadership, and developer mentoring.
+      Committed to delivering scalable, maintainable, and user-focused solutions.
+    </p>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <h2 class="section-title">Work Experience</h2>
+
+    <div class="exp-item">
+      <div class="exp-top">
+        <span class="exp-role">Frontend Developer</span>
+        <span class="exp-date">Jan 2023 — May 2026</span>
+      </div>
+      <div class="exp-company">Tecnologías para Soluciones Inteligentes (TSI)</div>
+      <ul class="exp-list">
+        <li>Developed and maintained SPA applications using Vue.js 3, TypeScript, and Vite across multiple SaaS products.</li>
+        <li>Built modules for electronic invoicing, inventory management, POS systems, and business analytics dashboards.</li>
+        <li>Designed responsive UIs with Tailwind CSS, Naive UI, PrimeVue, and custom component libraries.</li>
+        <li>Integrated REST APIs with Axios and managed application state using Pinia.</li>
+        <li>Implemented complex form validation with VeeValidate for enterprise data entry workflows.</li>
+        <li>Led frontend architecture decisions for new projects from initial setup to production deployment.</li>
+        <li>Resolved technical and functional issues across the full application lifecycle.</li>
+        <li>Mentored junior developers and interns on best practices and code quality standards.</li>
+        <li>Worked in Agile environments using Scrum, Kanban, and GitLab for version control.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TECHNICAL SKILLS -->
+  <div class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <span class="skills-label">Languages:</span>
+      <span class="skills-value">TypeScript, JavaScript (ES6+), HTML5, CSS3</span>
+
+      <span class="skills-label">Frameworks:</span>
+      <span class="skills-value">Vue 3, Vue Router, Pinia, Vite</span>
+
+      <span class="skills-label">UI Libraries:</span>
+      <span class="skills-value">Tailwind CSS, PrimeVue, Naive UI, shadcn/vue, VeeValidate</span>
+
+      <span class="skills-label">Tools:</span>
+      <span class="skills-value">Git, GitLab, Docker, Linux, Postman, Figma, npm, pnpm</span>
+
+      <span class="skills-label">IDEs:</span>
+      <span class="skills-value">VS Code, WebStorm</span>
+
+      <span class="skills-label">Methodologies:</span>
+      <span class="skills-value">Scrum, Kanban, Component-Based Architecture, REST API Integration</span>
+    </div>
+  </div>
+
+  <!-- KEY PROJECTS -->
+  <div class="section">
+    <h2 class="section-title">Key Projects</h2>
+
+    <div class="project-item">
+      <div class="project-name">Zenda Comercial & Zenda Pharma — ERP / Invoicing Systems</div>
+      <div class="project-desc">Electronic invoicing and pharmacy management systems connected to SUNAT. Full inventory, stock control, sales modules, and real-time cash register reports.</div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-name">Verydis — Field Personnel Management</div>
+      <div class="project-desc">Workforce management platform with SUNAT-integrated requirements, attendance tracking, Kanban-style task boards, and productivity dashboards.</div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-name">Flizzy — Restaurant POS System</div>
+      <div class="project-desc">Point-of-sale system with role-based access, waiter mode for streamlined order processing, input management, and cash register reporting.</div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-name">Biometric Tracker & JNICAMP Demo</div>
+      <div class="project-desc">Collaborative development of a biometric management web application and a modern frontend platform integrated with backend services.</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <h2 class="section-title">Education</h2>
+
+    <div class="edu-item">
+      <div class="edu-top">
+        <span class="edu-title">Computer Science — Computing & Informatics</span>
+        <span class="edu-date">2020 — 2022</span>
+      </div>
+      <div class="edu-institution">IESTP Carlos Salazar Romero</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-top">
+        <span class="edu-title">English — Level B1 (In Progress)</span>
+        <span class="edu-date">2025 — Present</span>
+      </div>
+      <div class="edu-institution">Centro de Idiomas El Cultural</div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

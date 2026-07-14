@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Daniel Paredes Mendoza - CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #fff;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .cv {
+            max-width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 30px 34px;
+        }
+
+        /* ===== HEADER ===== */
+        .header {
+            text-align: center;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #1a1a1a;
+            margin-bottom: 14px;
+        }
+
+        .header-name {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a1a;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .header-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #4a4a4a;
+            margin-top: 4px;
+        }
+
+        .header-contact {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 6px 0;
+            margin-top: 12px;
+            font-size: 12px;
+            color: #4a4a4a;
+        }
+
+        .header-contact a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .header-contact a:hover {
+            color: #4f46e5;
+            text-decoration: underline;
+        }
+
+        .separator {
+            color: #ccc;
+            margin: 0 5px;
+        }
+
+        /* ===== SECTIONS ===== */
+        .section {
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #d1d5db;
+            margin-bottom: 10px;
+        }
+
+        .section-text {
+            font-size: 11px;
+            color: #374151;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        /* ===== EXPERIENCE ===== */
+        .exp-item {
+            margin-bottom: 14px;
+        }
+
+        .exp-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .exp-role {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .exp-date {
+            font-size: 12px;
+            color: #6b7280;
+            font-weight: 500;
+        }
+
+        .exp-company {
+            font-size: 13px;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 6px;
+        }
+
+        .exp-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .exp-list li {
+            font-size: 12px;
+            color: #374151;
+            padding: 2px 0 2px 14px;
+            position: relative;
+            line-height: 1.6;
+        }
+
+        .exp-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #1a1a1a;
+            font-weight: bold;
+        }
+
+        /* ===== SKILLS ===== */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 140px 1fr;
+            gap: 5px 14px;
+            font-size: 11px;
+        }
+
+        .skills-label {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .skills-value {
+            color: #374151;
+        }
+
+        /* ===== PROJECTS ===== */
+        .project-item {
+            margin-bottom: 8px;
+        }
+
+        .project-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .project-desc {
+            font-size: 11px;
+            color: #4a4a4a;
+            line-height: 1.55;
+        }
+
+        /* ===== EDUCATION ===== */
+        .edu-item {
+            margin-bottom: 8px;
+        }
+
+        .edu-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .edu-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .edu-date {
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        .edu-institution {
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        /* ===== PRINT ===== */
+        @media print {
+            body {
+                background: white;
+            }
+
+            .cv {
+                margin: 0;
+                padding: 28px 32px;
+            }
+
+            .header-contact a {
+                color: #1a1a1a;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="cv">
+
+    <div class="header">
+        <h1 class="header-name">Daniel Paredes Mendoza</h1>
+        <div class="header-title">Desarrollador Frontend</div>
+        <div class="header-contact">
+            <span>Moyobamba, San Martín, Perú</span>
+            <span class="separator">|</span>
+            <a href="mailto:dannyslowgoswell@gmail.com">dannyslowgoswell@gmail.com</a>
+            <span class="separator">|</span>
+            <a href="https://github.com/DanGosw" target="_blank">github.com/DanGosw</a>
+            <span class="separator">|</span>
+            <a href="https://www.linkedin.com/in/daniel-paredes-a17b89344/" target="_blank">linkedin.com/in/daniel-paredes</a>
+            <span class="separator">|</span>
+            <a href="https://dangosw.netlify.app/" target="_blank">dangosw.netlify.app</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Perfil Profesional</h2>
+        <p class="section-text">
+            Desarrollador Frontend con más de 3 años de experiencia en el desarrollo de aplicaciones web
+            modernas utilizando Vue.js y TypeScript. Especializado en desarrollo SPA,
+            arquitectura de componentes reutilizables e integración con APIs REST para plataformas SaaS.
+            Experiencia comprobada en decisiones de arquitectura frontend, liderazgo técnico y
+            mentoría de desarrolladores. Comprometido con la entrega de soluciones escalables,
+            mantenibles y enfocadas en el usuario.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Experiencia Profesional</h2>
+
+        <div class="exp-item">
+            <div class="exp-top">
+                <span class="exp-role">Desarrollador Frontend</span>
+                <span class="exp-date">Ene 2023 — May 2026</span>
+            </div>
+            <div class="exp-company">Tecnologías para Soluciones Inteligentes (TSI)</div>
+            <ul class="exp-list">
+                <li>Desarrollo y mantenimiento de aplicaciones SPA utilizando Vue.js 3, TypeScript y Vite en múltiples productos SaaS.</li>
+                <li>Implementación de módulos de facturación electrónica, inventariado, sistemas POS y dashboards de análisis de negocio.
+                </li>
+                <li>Diseño de interfaces responsivas con Tailwind CSS, Naive UI, PrimeVue y bibliotecas de componentes propias.</li>
+                <li>Integración de APIs REST con Axios y gestión de estado utilizando Pinia.</li>
+<!--                <li>Implementación de formularios complejos con VeeValidate para flujos de entrada de datos empresariales.</li>-->
+                <li>Liderazgo en decisiones de arquitectura frontend para proyectos nuevos, desde la configuración inicial hasta
+                    producción.
+                </li>
+                <li>Resolución de incidencias técnicas y funcionales a lo largo del ciclo de vida completo de la aplicación.</li>
+                <li>Mentoría a desarrolladores junior y pasantes en buenas prácticas y estándares de calidad de código.</li>
+                <li>Trabajo en entornos ágiles utilizando Scrum, Kanban y GitLab para control de versiones.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <span class="skills-label">Lenguajes:</span>
+            <span class="skills-value">TypeScript, JavaScript (ES6+), HTML5, CSS3</span>
+
+            <span class="skills-label">Frameworks:</span>
+            <span class="skills-value">Vue 3, Vue Router, Pinia, Vite</span>
+
+            <span class="skills-label">Librerías UI:</span>
+            <span class="skills-value">Tailwind CSS, PrimeVue, Naive UI, shadcn/vue, VeeValidate</span>
+
+            <span class="skills-label">Herramientas:</span>
+            <span class="skills-value">Git, GitLab, Docker, Linux, Postman, Figma, npm, pnpm</span>
+
+            <span class="skills-label">IDEs:</span>
+            <span class="skills-value">VS Code, WebStorm</span>
+
+            <span class="skills-label">Metodologías:</span>
+            <span class="skills-value">Scrum, Kanban, Arquitectura Basada en Componentes, Integración de APIs REST</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Proyectos Destacados</h2>
+
+        <div class="project-item">
+            <div class="project-name">Zenda Comercial y Zenda Pharma — Sistemas ERP / Facturación</div>
+            <div class="project-desc">Sistemas de facturación electrónica y gestión de farmacias conectados a SUNAT. Inventario completo,
+                control de stock, módulos de ventas y reportes de caja en tiempo real.
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-name">Flizzy — Sistema POS para Restaurantes</div>
+            <div class="project-desc">Sistema punto de venta con acceso por roles, modo de mozos para agilizar pedidos, gestión de insumos y
+                reportes de caja.
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-name">Biometric Tracker y JNICAMP Demo</div>
+            <div class="project-desc">Desarrollo colaborativo de una aplicación web de gestión biométrica y una plataforma frontend moderna
+                integrada con servicios backend.
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Educación</h2>
+
+        <div class="edu-item">
+            <div class="edu-top">
+                <span class="edu-title">Computación e Informática</span>
+                <span class="edu-date">2020 — 2022</span>
+            </div>
+            <div class="edu-institution">IESTP Carlos Salazar Romero</div>
+        </div>
+
+        <div class="edu-item">
+            <div class="edu-top">
+                <span class="edu-title">Inglés — Nivel B1 (En curso)</span>
+                <span class="edu-date">2025 — Presente</span>
+            </div>
+            <div class="edu-institution">Centro de Idiomas El Cultural</div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
