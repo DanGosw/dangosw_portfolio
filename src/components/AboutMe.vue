@@ -24,7 +24,7 @@ const stack = [
 		<div class="relative shrink-0 hero-animate hero-animate-delay-1">
 			<div class="absolute inset-0 rounded-full blur-3xl bg-indigo-500/20 scale-110 animate-glow"/>
 			<div
-				class="relative bg-[url(/temp-pic.jpg)] bg-cover bg-center h-40 w-40 md:h-56 md:w-56 rounded-full border-2 border-slate-700/50 shadow-2xl shadow-indigo-500/10"/>
+				class="relative bg-[url(/temp-pic.webp)] bg-cover bg-center h-40 w-40 md:h-56 md:w-56 rounded-full border-2 border-slate-700/50 shadow-2xl shadow-indigo-500/10"/>
 		</div>
 
 		<!-- Content -->
