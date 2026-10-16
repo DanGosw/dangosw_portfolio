@@ -43,9 +43,9 @@ onUnmounted(() => {
 <template>
 	<header
 		:class="[ 'fixed top-0 left-0 right-0 w-full border-b transition-all duration-500 ease-in-out z-50', isScrolled ? 'bg-[#0B1120]/95 backdrop-blur-lg border-slate-800' : 'bg-transparent border-transparent']">
-		<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+		<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Navegación principal">
 			<div class="h-16 flex items-center justify-between">
-				<img src="/devrunner_logo.svg" alt="logo" class="h-9 shrink-0"/>
+				<img src="/devrunner_logo.svg" alt="DevRunner — Daniel Paredes Mendoza, Frontend Developer" class="h-9 shrink-0"/>
 
 				<!-- Desktop nav -->
 				<ul class="hidden md:flex items-center gap-8">
@@ -90,26 +90,3 @@ onUnmounted(() => {
 		</Transition>
 	</header>
 </template>
-
-<style scoped>
-.fade-enter-active,
-.fade-leave-active {
-	transition: opacity 0.2s ease;
-}
-
-.fade-enter-from,
-.fade-leave-to {
-	opacity: 0;
-}
-
-.slide-down-enter-active,
-.slide-down-leave-active {
-	transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.slide-down-enter-from,
-.slide-down-leave-to {
-	opacity: 0;
-	transform: translateY(-8px) scale(0.98);
-}
-</style>

@@ -63,6 +63,7 @@ const personalProjects = [
 							<h4 class="text-heading group-hover:text-indigo-400 transition-colors">
 								{{ t(`projects.items.${ project.key }.title`) }}</h4>
 							<a :href="project.link" target="_blank" rel="noopener noreferrer"
+							   :aria-label="t(`projects.items.${project.key}.title`)"
 							   class="shrink-0 mt-1 text-slate-500 hover:text-indigo-400 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
 								<ExternalLink class="h-5 w-5" />
 							</a>
@@ -89,6 +90,7 @@ const personalProjects = [
 							<h4 class="text-heading group-hover:text-indigo-400 transition-colors">
 								{{ t(`projects.items.${ project.key }.title`) }}</h4>
 							<a :href="project.link" target="_blank" rel="noopener noreferrer"
+							   :aria-label="t(`projects.items.${project.key}.title`)"
 							   class="shrink-0 mt-1 text-slate-500 hover:text-indigo-400 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
 								<ExternalLink class="h-5 w-5" />
 							</a>

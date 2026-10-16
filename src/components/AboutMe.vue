@@ -38,6 +38,7 @@ const stack = [
 		<div class="space-y-6 max-w-2xl">
 			<!-- title -->
 			<div class="space-y-4 hero-animate hero-animate-delay-2">
+				<p class="text-lg md:text-xl font-semibold text-indigo-400 tracking-wide">{{ t("hero.name") }}</p>
 				<h1 class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white">
 					{{ t("hero.title") }}
 					<span class="text-shimmer">.</span>

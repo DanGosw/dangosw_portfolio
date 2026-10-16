@@ -21,7 +21,8 @@ const iconMap: Record<string, any> = {
 			<div class="flex flex-col md:flex-row items-center justify-between gap-4">
 				<!-- Logo -->
 				<div class="flex items-center gap-3">
-					<img src="/devrunner_logo.svg" alt="logo" class="h-7"/>
+					<img src="/devrunner_logo.svg" alt="DevRunner — Daniel Paredes Mendoza, Frontend Developer" class="h-7"/>
+					<span class="text-sm text-slate-400">Daniel Paredes Mendoza</span>
 				</div>
 
 				<!-- Copyright -->

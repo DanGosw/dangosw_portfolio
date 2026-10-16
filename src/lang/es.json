@@ -6,6 +6,7 @@
     "contact": "Contacto"
   },
   "hero": {
+    "name": "Daniel Paredes Mendoza",
     "title": "Desarrollador Frontend",
     "subtitle": "Construyendo aplicaciones web escalables, interfaces interactivas y plataformas SaaS modernas.",
     "description": "Más de 3 años de experiencia profesional construyendo sistemas administrativos, aplicaciones web en producción y arquitecturas frontend enfocadas en usabilidad, escalabilidad y mantenibilidad.",
@@ -33,11 +34,11 @@
     "items": {
       "zendaComercial": {
         "title": "Zenda Comercial",
-        "description": "Sistema de facturación electrónica con inventariado y control de stock. Módulos de ventas, compras, manejo y reportes de caja. Conectado a SUNAT."
+        "description": "Sistema de facturación electrónica con gestión de inventario y control de stock. Módulos de ventas, compras, manejo y reportes de caja. Conectado a SUNAT."
       },
       "zendaPharma": {
         "title": "Zenda Pharma",
-        "description": "Sistema ERP orientado a boticas conectado a SUNAT. Gestión de usuarios, roles, ventas, productos, inventariado, control de stock y reportes de caja."
+        "description": "Sistema ERP orientado a boticas conectado a SUNAT. Gestión de usuarios, roles, ventas, productos, gestión de inventario, control de stock y reportes de caja."
       },
       "verydis": {
         "title": "Verydis",
