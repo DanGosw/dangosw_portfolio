@@ -22,7 +22,7 @@
     body {
       font-family: 'Inter', Arial, Helvetica, sans-serif;
       font-size: 12px;
-      line-height: 1.6;
+      line-height: 1.5;
       color: #1a1a1a;
       background: #fff;
       -webkit-print-color-adjust: exact;
@@ -44,9 +44,9 @@
     /* ===== HEADER ===== */
     .header {
       text-align: center;
-      padding-bottom: 16px;
+      padding-bottom: 12px;
       border-bottom: 2px solid #1a1a1a;
-      margin-bottom: 22px;
+      margin-bottom: 14px;
     }
 
     .header-name {
@@ -92,7 +92,7 @@
 
     /* ===== SECTIONS ===== */
     .section {
-      margin-bottom: 18px;
+      margin-bottom: 10px;
     }
 
     .section-title {
@@ -103,7 +103,7 @@
       letter-spacing: 1.2px;
       padding-bottom: 5px;
       border-bottom: 1px solid #d1d5db;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .section-text {
@@ -115,7 +115,7 @@
 
     /* ===== EXPERIENCE ===== */
     .exp-item {
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
 
     .exp-top {
@@ -192,7 +192,7 @@
 
     /* ===== PROJECTS ===== */
     .project-item {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
 
     .project-name {
@@ -207,9 +207,20 @@
       line-height: 1.55;
     }
 
+    .project-link {
+      font-size: 12px;
+      margin-top: 3px;
+      color: #1a1a1a;
+    }
+
+    .project-link a {
+      color: #1a1a1a;
+      text-decoration: none;
+    }
+
     /* ===== EDUCATION ===== */
     .edu-item {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
 
     .edu-top {
@@ -274,13 +285,13 @@
     <h1 class="header-name">Daniel Paredes Mendoza</h1>
     <div class="header-title">Frontend Developer | Vue.js 3 | TypeScript | SaaS Applications</div>
     <div class="header-contact">
-      <span>Moyobamba, San Martín, Perú</span>
+      <span>Moyobamba, San Martín, Peru</span>
       <span class="separator">|</span>
       <a href="mailto:dannyslowgoswell@gmail.com">dannyslowgoswell@gmail.com</a>
       <span class="separator">|</span>
       <a href="https://github.com/DanGosw" target="_blank">github.com/DanGosw</a>
       <span class="separator">|</span>
-      <a href="https://www.linkedin.com/in/daniel-paredes-a17b89344/" target="_blank">linkedin.com/in/daniel-paredes</a>
+      <a href="https://www.linkedin.com/in/daniel-paredes-a17b89344/" target="_blank">linkedin.com/in/daniel-paredes-a17b89344</a>
       <span class="separator">|</span>
       <a href="https://dangosw.netlify.app/" target="_blank">dangosw.netlify.app</a>
     </div>
@@ -290,11 +301,11 @@
   <div class="section">
     <h2 class="section-title">Professional Summary</h2>
     <p class="section-text">
-      Frontend Developer with 3+ years of experience building SPA-based SaaS applications with Vue.js 3,
-      TypeScript, and Vite. Experienced in developing features for electronic invoicing, inventory management,
-      point-of-sale (POS) systems, and business dashboards. Skilled in responsive interfaces, reusable components,
-      REST API integration with Axios, and state management with Pinia. Contributed to frontend architecture
-      decisions, production releases, and mentoring junior developers.
+      Frontend Developer with 3+ years of experience building single-page applications (SPAs) and SaaS products
+      with Vue.js 3, TypeScript, and Vite. Experienced in electronic invoicing, inventory management,
+      point-of-sale (POS) systems, and business dashboards. Skilled in responsive UI development, reusable
+      components, REST API integration with Axios, and state management with Pinia. Contributed to frontend
+      architecture decisions, production releases, and mentoring junior developers.
     </p>
   </div>
 
@@ -312,12 +323,10 @@
         <li>Developed and maintained SPA-based SaaS applications using Vue.js 3, TypeScript, and Vite.</li>
         <li>Implemented features for electronic invoicing, inventory management, POS systems, and business dashboards.</li>
         <li>Built responsive interfaces and reusable UI components with Tailwind CSS, PrimeVue, and Naive UI.</li>
-        <li>Integrated REST APIs using Axios and managed application state with Pinia.</li>
-        <li>Implemented form validation with VeeValidate for enterprise data-entry workflows.</li>
+        <li>Integrated REST APIs with Axios, managed application state with Pinia, and implemented form validation with VeeValidate for enterprise data-entry workflows.</li>
         <li>Contributed to frontend architecture decisions and initial project setup through production readiness.</li>
         <li>Investigated and resolved technical and functional issues throughout the application lifecycle.</li>
-        <li>Mentored junior developers and interns on coding standards and frontend best practices.</li>
-        <li>Worked in Agile environments using Scrum, Kanban, and GitLab for version control.</li>
+        <li>Worked in Agile environments (Scrum, Kanban) with GitLab and mentored junior developers and interns on coding standards and best practices.</li>
       </ul>
     </div>
   </div>
@@ -348,6 +357,7 @@
       <div class="project-desc">Frontend development of electronic invoicing, inventory, stock control, sales, and cash register
         reporting features for retail and pharmacy systems connected to SUNAT. Technologies: Vue.js 3, TypeScript, Tailwind
         CSS, PrimeVue, Naive UI, Pinia, Axios.</div>
+      <div class="project-link">Demo: <a href="https://demozenda.tsifactur.com" target="_blank">https://demozenda.tsifactur.com</a> · <a href="https://demofarma.tsifactur.com" target="_blank">https://demofarma.tsifactur.com</a></div>
     </div>
 
     <div class="project-item">
@@ -355,6 +365,7 @@
       <div class="project-desc">Frontend development of attendance tracking, Kanban-style task boards, and productivity
         dashboard features for a workforce management platform. Technologies: Vue.js 3, TypeScript, Tailwind CSS, PrimeVue,
         Naive UI, Pinia, Axios.</div>
+      <div class="project-link">Demo: <a href="https://demo.ampaperu.org" target="_blank">https://demo.ampaperu.org</a></div>
     </div>
 
     <div class="project-item">
@@ -362,12 +373,14 @@
       <div class="project-desc">Implementation of point-of-sale flows, role-based access control, waiter mode for order
         handling, and cash register reporting. Technologies: Vue.js 3, TypeScript, Tailwind CSS, PrimeVue, Naive UI, Pinia,
         Axios.</div>
+      <div class="project-link">Demo: <a href="https://demo.flizzy.pe" target="_blank">https://demo.flizzy.pe</a></div>
     </div>
 
     <div class="project-item">
       <div class="project-name">Biometric Tracker & JNICAMP Demo</div>
       <div class="project-desc">Collaboration on a biometric management web application and on a frontend platform
         integrated with backend services.</div>
+      <div class="project-link">Demo: <a href="https://biometrictraker.netlify.app/" target="_blank">https://biometrictraker.netlify.app</a></div>
     </div>
   </div>
 
@@ -381,7 +394,7 @@
         <span class="edu-date">2020 — 2022</span>
       </div>
       <div class="edu-institution">IESTP Carlos Salazar Romero</div>
-      <div class="edu-status">Program completed (egresado)</div>
+      <div class="edu-status">Technical program completed (egresado)</div>
     </div>
 
     <div class="edu-item">

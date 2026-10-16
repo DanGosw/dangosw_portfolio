@@ -22,7 +22,7 @@
         body {
             font-family: 'Inter', Arial, Helvetica, sans-serif;
             font-size: 12px;
-            line-height: 1.6;
+            line-height: 1.5;
             color: #1a1a1a;
             background: #fff;
             -webkit-print-color-adjust: exact;
@@ -44,9 +44,9 @@
         /* ===== HEADER ===== */
         .header {
             text-align: center;
-            padding-bottom: 16px;
+            padding-bottom: 12px;
             border-bottom: 1px solid #1a1a1a;
-            margin-bottom: 14px;
+            margin-bottom: 12px;
         }
 
         .header-name {
@@ -92,7 +92,7 @@
 
         /* ===== SECTIONS ===== */
         .section {
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
         .section-title {
@@ -103,7 +103,7 @@
             letter-spacing: 1px;
             padding-bottom: 5px;
             border-bottom: 1px solid #d1d5db;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .section-text {
@@ -115,7 +115,7 @@
 
         /* ===== EXPERIENCE ===== */
         .exp-item {
-            margin-bottom: 14px;
+            margin-bottom: 10px;
         }
 
         .exp-top {
@@ -191,7 +191,7 @@
 
         /* ===== PROJECTS ===== */
         .project-item {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .project-name {
@@ -206,9 +206,20 @@
             line-height: 1.55;
         }
 
+        .project-link {
+            font-size: 12px;
+            margin-top: 3px;
+            color: #1a1a1a;
+        }
+
+        .project-link a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
         /* ===== EDUCATION ===== */
         .edu-item {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .edu-top {
@@ -289,7 +300,7 @@
             <span class="separator">|</span>
             <a href="https://github.com/DanGosw" target="_blank">github.com/DanGosw</a>
             <span class="separator">|</span>
-            <a href="https://www.linkedin.com/in/daniel-paredes-a17b89344/" target="_blank">linkedin.com/in/daniel-paredes</a>
+            <a href="https://www.linkedin.com/in/daniel-paredes-a17b89344/" target="_blank">linkedin.com/in/daniel-paredes-a17b89344</a>
             <span class="separator">|</span>
             <a href="https://dangosw.netlify.app/" target="_blank">dangosw.netlify.app</a>
         </div>
@@ -298,11 +309,11 @@
     <div class="section">
         <h2 class="section-title">Perfil Profesional</h2>
         <p class="section-text">
-            Desarrollador Frontend con más de 3 años de experiencia construyendo aplicaciones web SPA para
-            productos SaaS con Vue.js 3, TypeScript y Vite. Experiencia en funcionalidades de facturación
-            electrónica, inventario, sistemas de punto de venta (POS) y dashboards de negocio. Especializado en
+            Desarrollador Frontend con más de 3 años de experiencia construyendo aplicaciones de página única
+            (SPA) y productos SaaS con Vue.js 3, TypeScript y Vite. Experiencia en facturación electrónica,
+            gestión de inventario, sistemas de punto de venta (POS) y dashboards empresariales. Enfocado en
             interfaces responsivas, componentes reutilizables, integración de APIs REST con Axios y gestión de
-            estado con Pinia. Participación en decisiones de arquitectura frontend, preparación de proyectos para
+            estado con Pinia. Participé en decisiones de arquitectura frontend, preparación de proyectos para
             producción y mentoría de desarrolladores junior.
         </p>
     </div>
@@ -321,16 +332,14 @@
                 <li>Implementé funcionalidades para módulos de facturación electrónica, gestión de inventario,
                     sistemas POS y dashboards de negocio.</li>
                 <li>Construí interfaces responsivas y componentes reutilizables con Tailwind CSS, PrimeVue y Naive UI.</li>
-                <li>Integré APIs REST mediante Axios y gestioné el estado de las aplicaciones con Pinia.</li>
-                <li>Implementé validaciones de formularios con VeeValidate para flujos de registro y edición de
-                    datos empresariales.</li>
+                <li>Integré APIs REST con Axios, gestioné el estado de las aplicaciones con Pinia e implementé
+                    validaciones de formularios con VeeValidate para flujos de registro y edición de datos empresariales.</li>
                 <li>Participé en decisiones de arquitectura frontend y en la configuración inicial de proyectos
                     hasta su preparación para producción.</li>
                 <li>Diagnostiqué y resolví incidencias técnicas y funcionales durante el ciclo de vida de las
                     aplicaciones.</li>
-                <li>Guié a desarrolladores junior y practicantes en buenas prácticas y estándares de calidad de
-                    código.</li>
-                <li>Trabajé en entornos ágiles utilizando Scrum, Kanban y GitLab para control de versiones.</li>
+                <li>Trabajé en entornos ágiles (Scrum, Kanban) con GitLab y guié a desarrolladores junior y
+                    practicantes en buenas prácticas y estándares de calidad de código.</li>
             </ul>
         </div>
     </div>
@@ -359,6 +368,7 @@
             <div class="project-desc">Desarrollo frontend de funcionalidades para facturación electrónica, inventario, control
                 de stock, ventas y reportes de caja en sistemas orientados a comercio y farmacia, conectados a SUNAT.
                 Tecnologías: Vue.js 3, TypeScript, Tailwind CSS, PrimeVue, Naive UI, Pinia, Axios.</div>
+            <div class="project-link">Demo: <a href="https://demozenda.tsifactur.com" target="_blank">https://demozenda.tsifactur.com</a> · <a href="https://demofarma.tsifactur.com" target="_blank">https://demofarma.tsifactur.com</a></div>
         </div>
 
         <div class="project-item">
@@ -366,6 +376,7 @@
             <div class="project-desc">Desarrollo de funcionalidades frontend para seguimiento de asistencia, tableros de
                 tareas tipo Kanban y dashboards de productividad en una plataforma de gestión de personal. Tecnologías:
                 Vue.js 3, TypeScript, Tailwind CSS, PrimeVue, Naive UI, Pinia, Axios.</div>
+            <div class="project-link">Demo: <a href="https://demo.ampaperu.org" target="_blank">https://demo.ampaperu.org</a></div>
         </div>
 
         <div class="project-item">
@@ -373,12 +384,14 @@
             <div class="project-desc">Implementación de flujos de punto de venta, control de acceso por roles, modo de
                 atención para mozos y reportes de caja. Tecnologías: Vue.js 3, TypeScript, Tailwind CSS, PrimeVue, Naive UI,
                 Pinia, Axios.</div>
+            <div class="project-link">Demo: <a href="https://demo.flizzy.pe" target="_blank">https://demo.flizzy.pe</a></div>
         </div>
 
         <div class="project-item">
             <div class="project-name">Biometric Tracker / JNICAMP Demo</div>
             <div class="project-desc">Colaboración en una aplicación web de gestión biométrica y en una plataforma frontend
                 integrada con servicios backend.</div>
+            <div class="project-link">Demo: <a href="https://biometrictraker.netlify.app/" target="_blank">https://biometrictraker.netlify.app</a></div>
         </div>
     </div>
 
