@@ -1,7 +1,14 @@
 <script setup lang="ts">
+import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
+
+const cvHref = computed(() =>
+	locale.value === "es"
+		? "/cv/Daniel_Paredes_Desarrollador_Frontend_ES.pdf"
+		: "/cv/Daniel_Paredes_Frontend_Developer_EN.pdf"
+);
 
 const stack = [
 	{ key: "vue" },
@@ -53,6 +60,9 @@ const stack = [
 				</a>
 				<a href="#contact" class="btn-secondary">
 					{{ t("hero.contact") }}
+				</a>
+				<a :href="cvHref" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+					{{ t("hero.downloadCV") }}
 				</a>
 			</div>
 		</div>

@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
 import { useScrollAnimation } from "@/composables/useScrollAnimation";
-import { Mail, Briefcase, Send } from "@lucide/vue";
+import { Mail, Briefcase, Send, FileText } from "@lucide/vue";
 import socials from "@/data/socials.json";
 import GitHubIcon from "@/components/icons/GitHubIcon.vue";
 import LinkedInIcon from "@/components/icons/LinkedInIcon.vue";
@@ -13,6 +13,11 @@ const sectionRef = ref<HTMLElement | null>(null);
 const { isVisible } = useScrollAnimation(sectionRef);
 
 const iconMap: Record<string, any> = { Briefcase, GitHubIcon, LinkedInIcon, Mail };
+
+const cvLinks = [
+	{ href: "/cv/Daniel_Paredes_Desarrollador_Frontend_ES.pdf", labelKey: "contact.cvEs", icon: FileText },
+	{ href: "/cv/Daniel_Paredes_Frontend_Developer_EN.pdf", labelKey: "contact.cvEn", icon: FileText }
+];
 
 </script>
 
@@ -39,6 +44,11 @@ const iconMap: Record<string, any> = { Briefcase, GitHubIcon, LinkedInIcon, Mail
 				   class="social-link animate-fade-up" :class="{ 'is-visible': isVisible, [`delay-${(index + 1) * 100}`]: true }">
 					<component :is="iconMap[social.icon]" class="social-link-icon"/>
 					<span class="social-link-label"> {{ social.label }} </span>
+				</a>
+				<a v-for="(cv, index) in cvLinks" :key="cv.href" :href="cv.href" target="_blank" rel="noopener noreferrer"
+				   class="social-link animate-fade-up" :class="{ 'is-visible': isVisible, [`delay-${(socials.length + index + 1) * 100}`]: true }">
+					<component :is="cv.icon" class="social-link-icon"/>
+					<span class="social-link-label"> {{ t(cv.labelKey) }} </span>
 				</a>
 			</div>
 		</div>

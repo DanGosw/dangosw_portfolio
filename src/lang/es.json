@@ -10,7 +10,8 @@
     "subtitle": "Construyendo aplicaciones web escalables, interfaces interactivas y plataformas SaaS modernas.",
     "description": "Más de 3 años de experiencia profesional construyendo sistemas administrativos, aplicaciones web en producción y arquitecturas frontend enfocadas en usabilidad, escalabilidad y mantenibilidad.",
     "viewProjects": "Ver Proyectos",
-    "contact": "Contactar"
+    "contact": "Contactar",
+    "downloadCV": "Descargar CV"
   },
   "stack": {
     "vue": "Vue",
@@ -84,7 +85,9 @@
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "indeed": "Indeed"
+    "indeed": "Indeed",
+    "cvEs": "CV (Español)",
+    "cvEn": "CV (Inglés)"
   },
   "footer": {
     "copyright": "© 2026 DevRunner. Todos los derechos reservados.",

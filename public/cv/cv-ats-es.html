@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Daniel Paredes Mendoza - CV</title>
+    <title>Daniel Paredes Mendoza — Desarrollador Frontend | CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         @page {
             size: A4;
-            margin: 0;
+            margin: 2.54cm;
         }
 
         * {
@@ -21,7 +21,7 @@
 
         body {
             font-family: 'Inter', Arial, Helvetica, sans-serif;
-            font-size: 11px;
+            font-size: 12px;
             line-height: 1.6;
             color: #1a1a1a;
             background: #fff;
@@ -31,9 +31,14 @@
 
         .cv {
             max-width: 210mm;
-            min-height: 297mm;
             margin: 0 auto;
-            padding: 30px 34px;
+            padding: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .cv {
+                padding: 2.54cm;
+            }
         }
 
         /* ===== HEADER ===== */
@@ -45,7 +50,7 @@
         }
 
         .header-name {
-            font-size: 22px;
+            font-size: 26px;
             font-weight: 700;
             color: #1a1a1a;
             letter-spacing: 1px;
@@ -53,7 +58,7 @@
         }
 
         .header-title {
-            font-size: 14px;
+            font-size: 14.5px;
             font-weight: 500;
             color: #4a4a4a;
             margin-top: 4px;
@@ -65,7 +70,7 @@
             flex-wrap: wrap;
             gap: 6px 0;
             margin-top: 12px;
-            font-size: 12px;
+            font-size: 13px;
             color: #4a4a4a;
         }
 
@@ -91,7 +96,7 @@
         }
 
         .section-title {
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 700;
             color: #1a1a1a;
             text-transform: uppercase;
@@ -102,7 +107,7 @@
         }
 
         .section-text {
-            font-size: 11px;
+            font-size: 14px;
             color: #374151;
             line-height: 1.7;
             text-align: justify;
@@ -121,19 +126,19 @@
         }
 
         .exp-role {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 600;
             color: #1a1a1a;
         }
 
         .exp-date {
-            font-size: 12px;
+            font-size: 13px;
             color: #6b7280;
             font-weight: 500;
         }
 
         .exp-company {
-            font-size: 13px;
+            font-size: 13.5px;
             color: #6b7280;
             font-style: italic;
             margin-bottom: 6px;
@@ -145,7 +150,7 @@
         }
 
         .exp-list li {
-            font-size: 12px;
+            font-size: 13px;
             color: #374151;
             padding: 2px 0 2px 14px;
             position: relative;
@@ -161,20 +166,25 @@
         }
 
         /* ===== SKILLS ===== */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: 140px 1fr;
-            gap: 5px 14px;
-            font-size: 11px;
+        .skills-list {
+            font-size: 12px;
         }
 
-        .skills-label {
+        .skill-row {
+            margin-bottom: 3px;
+            color: #374151;
+        }
+
+        .skill-row strong {
             font-weight: 600;
             color: #1a1a1a;
         }
 
-        .skills-value {
+        /* ===== LANGUAGES ===== */
+        .lang-item {
+            font-size: 13px;
             color: #374151;
+            margin-bottom: 2px;
         }
 
         /* ===== PROJECTS ===== */
@@ -183,13 +193,13 @@
         }
 
         .project-name {
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 600;
             color: #1a1a1a;
         }
 
         .project-desc {
-            font-size: 11px;
+            font-size: 12.5px;
             color: #4a4a4a;
             line-height: 1.55;
         }
@@ -206,19 +216,42 @@
         }
 
         .edu-title {
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 600;
             color: #1a1a1a;
         }
 
         .edu-date {
-            font-size: 12px;
+            font-size: 13px;
             color: #6b7280;
         }
 
         .edu-institution {
-            font-size: 12px;
+            font-size: 13px;
             color: #6b7280;
+        }
+
+        .edu-status {
+            font-size: 13px;
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        /* ===== PAGE BREAKS ===== */
+        .header,
+        .section,
+        .exp-item,
+        .project-item,
+        .edu-item {
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .section-text,
+        .exp-list li,
+        .project-desc {
+            orphans: 2;
+            widows: 2;
         }
 
         /* ===== PRINT ===== */
@@ -229,7 +262,8 @@
 
             .cv {
                 margin: 0;
-                padding: 28px 32px;
+                padding: 0;
+                max-width: none;
             }
 
             .header-contact a {
@@ -245,7 +279,7 @@
 
     <div class="header">
         <h1 class="header-name">Daniel Paredes Mendoza</h1>
-        <div class="header-title">Desarrollador Frontend</div>
+        <div class="header-title">Desarrollador Frontend | Vue.js 3 | TypeScript | Aplicaciones SaaS</div>
         <div class="header-contact">
             <span>Moyobamba, San Martín, Perú</span>
             <span class="separator">|</span>
@@ -262,12 +296,12 @@
     <div class="section">
         <h2 class="section-title">Perfil Profesional</h2>
         <p class="section-text">
-            Desarrollador Frontend con más de 3 años de experiencia en el desarrollo de aplicaciones web
-            modernas utilizando Vue.js y TypeScript. Especializado en desarrollo SPA,
-            arquitectura de componentes reutilizables e integración con APIs REST para plataformas SaaS.
-            Experiencia comprobada en decisiones de arquitectura frontend, liderazgo técnico y
-            mentoría de desarrolladores. Comprometido con la entrega de soluciones escalables,
-            mantenibles y enfocadas en el usuario.
+            Desarrollador Frontend con más de 3 años de experiencia construyendo aplicaciones web SPA para
+            productos SaaS con Vue.js 3, TypeScript y Vite. Experiencia en funcionalidades de facturación
+            electrónica, inventario, sistemas de punto de venta (POS) y dashboards de negocio. Especializado en
+            interfaces responsivas, componentes reutilizables, integración de APIs REST con Axios y gestión de
+            estado con Pinia. Participación en decisiones de arquitectura frontend, preparación de proyectos para
+            producción y mentoría de desarrolladores junior.
         </p>
     </div>
 
@@ -277,71 +311,72 @@
         <div class="exp-item">
             <div class="exp-top">
                 <span class="exp-role">Desarrollador Frontend</span>
-                <span class="exp-date">Ene 2023 — May 2026</span>
+                <span class="exp-date">ene 2023 — may 2026</span>
             </div>
             <div class="exp-company">Tecnologías para Soluciones Inteligentes (TSI)</div>
             <ul class="exp-list">
-                <li>Desarrollo y mantenimiento de aplicaciones SPA utilizando Vue.js 3, TypeScript y Vite en múltiples productos SaaS.</li>
-                <li>Implementación de módulos de facturación electrónica, inventariado, sistemas POS y dashboards de análisis de negocio.
-                </li>
-                <li>Diseño de interfaces responsivas con Tailwind CSS, Naive UI, PrimeVue y bibliotecas de componentes propias.</li>
-                <li>Integración de APIs REST con Axios y gestión de estado utilizando Pinia.</li>
-<!--                <li>Implementación de formularios complejos con VeeValidate para flujos de entrada de datos empresariales.</li>-->
-                <li>Liderazgo en decisiones de arquitectura frontend para proyectos nuevos, desde la configuración inicial hasta
-                    producción.
-                </li>
-                <li>Resolución de incidencias técnicas y funcionales a lo largo del ciclo de vida completo de la aplicación.</li>
-                <li>Mentoría a desarrolladores junior y pasantes en buenas prácticas y estándares de calidad de código.</li>
-                <li>Trabajo en entornos ágiles utilizando Scrum, Kanban y GitLab para control de versiones.</li>
+                <li>Desarrollé y mantuve aplicaciones SPA para productos SaaS con Vue.js 3, TypeScript y Vite.</li>
+                <li>Implementé funcionalidades para módulos de facturación electrónica, gestión de inventario,
+                    sistemas POS y dashboards de negocio.</li>
+                <li>Construí interfaces responsivas y componentes reutilizables con Tailwind CSS, PrimeVue y Naive UI.</li>
+                <li>Integré APIs REST mediante Axios y gestioné el estado de las aplicaciones con Pinia.</li>
+                <li>Implementé validaciones de formularios con VeeValidate para flujos de registro y edición de
+                    datos empresariales.</li>
+                <li>Participé en decisiones de arquitectura frontend y en la configuración inicial de proyectos
+                    hasta su preparación para producción.</li>
+                <li>Diagnostiqué y resolví incidencias técnicas y funcionales durante el ciclo de vida de las
+                    aplicaciones.</li>
+                <li>Guié a desarrolladores junior y practicantes en buenas prácticas y estándares de calidad de
+                    código.</li>
+                <li>Trabajé en entornos ágiles utilizando Scrum, Kanban y GitLab para control de versiones.</li>
             </ul>
         </div>
     </div>
 
     <div class="section">
         <h2 class="section-title">Habilidades Técnicas</h2>
-        <div class="skills-grid">
-            <span class="skills-label">Lenguajes:</span>
-            <span class="skills-value">TypeScript, JavaScript (ES6+), HTML5, CSS3</span>
-
-            <span class="skills-label">Frameworks:</span>
-            <span class="skills-value">Vue 3, Vue Router, Pinia, Vite</span>
-
-            <span class="skills-label">Librerías UI:</span>
-            <span class="skills-value">Tailwind CSS, PrimeVue, Naive UI, shadcn/vue, VeeValidate</span>
-
-            <span class="skills-label">Herramientas:</span>
-            <span class="skills-value">Git, GitLab, Docker, Linux, Postman, Figma, npm, pnpm</span>
-
-            <span class="skills-label">IDEs:</span>
-            <span class="skills-value">VS Code, WebStorm</span>
-
-            <span class="skills-label">Metodologías:</span>
-            <span class="skills-value">Scrum, Kanban, Arquitectura Basada en Componentes, Integración de APIs REST</span>
+        <div class="skills-list">
+            <div class="skill-row"><strong>Lenguajes:</strong> TypeScript, JavaScript (ES6+), HTML5, CSS3</div>
+            <div class="skill-row"><strong>Framework frontend:</strong> Vue.js 3</div>
+            <div class="skill-row"><strong>Enrutamiento y estado:</strong> Vue Router, Pinia</div>
+            <div class="skill-row"><strong>Build y tooling:</strong> Vite, npm, pnpm</div>
+            <div class="skill-row"><strong>Estilos y componentes UI:</strong> Tailwind CSS, PrimeVue, Naive UI, shadcn/vue</div>
+            <div class="skill-row"><strong>Formularios y validación:</strong> VeeValidate</div>
+            <div class="skill-row"><strong>Integración y depuración:</strong> APIs REST, Axios, Postman</div>
+            <div class="skill-row"><strong>Control de versiones y entorno:</strong> Git, GitLab, Docker, Linux</div>
+            <div class="skill-row"><strong>Diseño y herramientas de desarrollo:</strong> Figma, Visual Studio Code, WebStorm</div>
+            <div class="skill-row"><strong>Metodologías y prácticas:</strong> Scrum, Kanban, arquitectura basada en componentes, diseño de interfaces responsivas</div>
         </div>
     </div>
 
     <div class="section">
-        <h2 class="section-title">Proyectos Destacados</h2>
+        <h2 class="section-title">Proyectos</h2>
 
         <div class="project-item">
-            <div class="project-name">Zenda Comercial y Zenda Pharma — Sistemas ERP / Facturación</div>
-            <div class="project-desc">Sistemas de facturación electrónica y gestión de farmacias conectados a SUNAT. Inventario completo,
-                control de stock, módulos de ventas y reportes de caja en tiempo real.
-            </div>
+            <div class="project-name">Zenda Comercial / Zenda Pharma — ERP, facturación e inventario</div>
+            <div class="project-desc">Desarrollo frontend de funcionalidades para facturación electrónica, inventario, control
+                de stock, ventas y reportes de caja en sistemas orientados a comercio y farmacia, conectados a SUNAT.
+                Tecnologías: Vue.js 3, TypeScript, Tailwind CSS, PrimeVue, Naive UI, Pinia, Axios.</div>
         </div>
 
         <div class="project-item">
-            <div class="project-name">Flizzy — Sistema POS para Restaurantes</div>
-            <div class="project-desc">Sistema punto de venta con acceso por roles, modo de mozos para agilizar pedidos, gestión de insumos y
-                reportes de caja.
-            </div>
+            <div class="project-name">Verydis — Gestión de personal en campo</div>
+            <div class="project-desc">Desarrollo de funcionalidades frontend para seguimiento de asistencia, tableros de
+                tareas tipo Kanban y dashboards de productividad en una plataforma de gestión de personal. Tecnologías:
+                Vue.js 3, TypeScript, Tailwind CSS, PrimeVue, Naive UI, Pinia, Axios.</div>
         </div>
 
         <div class="project-item">
-            <div class="project-name">Biometric Tracker y JNICAMP Demo</div>
-            <div class="project-desc">Desarrollo colaborativo de una aplicación web de gestión biométrica y una plataforma frontend moderna
-                integrada con servicios backend.
-            </div>
+            <div class="project-name">Flizzy — Sistema POS para restaurantes</div>
+            <div class="project-desc">Implementación de flujos de punto de venta, control de acceso por roles, modo de
+                atención para mozos y reportes de caja. Tecnologías: Vue.js 3, TypeScript, Tailwind CSS, PrimeVue, Naive UI,
+                Pinia, Axios.</div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-name">Biometric Tracker / JNICAMP Demo</div>
+            <div class="project-desc">Colaboración en una aplicación web de gestión biométrica y en una plataforma frontend
+                integrada con servicios backend.</div>
         </div>
     </div>
 
@@ -354,15 +389,22 @@
                 <span class="edu-date">2020 — 2022</span>
             </div>
             <div class="edu-institution">IESTP Carlos Salazar Romero</div>
+            <div class="edu-status">Egresado</div>
         </div>
 
         <div class="edu-item">
             <div class="edu-top">
-                <span class="edu-title">Inglés — Nivel B1 (En curso)</span>
+                <span class="edu-title">Inglés — Nivel B2 (En curso)</span>
                 <span class="edu-date">2025 — Presente</span>
             </div>
             <div class="edu-institution">Centro de Idiomas El Cultural</div>
         </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Idiomas</h2>
+        <div class="lang-item">Español — Nativo</div>
+        <div class="lang-item">Inglés — B2 (en formación)</div>
     </div>
 
 </div>
