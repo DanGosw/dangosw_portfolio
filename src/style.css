@@ -242,7 +242,7 @@ img {
     font-weight: 600;
     letter-spacing: -0.04em;
     text-wrap: balance;
-    color: var(--fg);
+    color: #f8fafc;
 }
 
 .lead {
@@ -253,7 +253,7 @@ img {
     letter-spacing: -0.015em;
     max-width: 34ch;
     text-wrap: pretty;
-    color: #f8fafc;
+    color: var(--fg);
 }
 
 .body-copy {
