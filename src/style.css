@@ -50,11 +50,11 @@
     /* Semantic tokens — Light (Default: High Contrast & Readability) */
     --bg: #f8fafc;
     --bg-deep: #f1f5f9;
-    --fg: #0f172a; /* Slate-900: Ratio 17.5:1 */
-    --fg-muted: #334155; /* Slate-700: Ratio 7.8:1 - WCAG AAA */
-    --border-color: #cbd5e1; /* Slate-300: Definición nítida */
-    --accent: #4338ca; /* Indigo-700: Ratio 7.4:1 */
-    --accent-soft: #4f46e5; /* Indigo-600 */
+    --fg: #0f172a;               /* Slate-900: Ratio 17.5:1 */
+    --fg-muted: #334155;         /* Slate-700: Ratio 7.8:1 - WCAG AAA */
+    --border-color: #cbd5e1;     /* Slate-300: Definición nítida */
+    --accent: #4338ca;           /* Indigo-700: Ratio 7.4:1 */
+    --accent-soft: #4f46e5;      /* Indigo-600 */
     --accent-muted: rgba(67, 56, 202, 0.12);
     --surface: #ffffff;
     --surface-raised: #ffffff;
@@ -77,11 +77,11 @@
         /* Semantic tokens — Dark (High Contrast & Soft for Eyes) */
         --bg: #0a0e17;
         --bg-deep: #111827;
-        --fg: #f8fafc; /* Slate-50: Ratio 18:1 */
-        --fg-muted: #94a3b8; /* Slate-400: Ratio 7.5:1 - WCAG AAA */
+        --fg: #f8fafc;               /* Slate-50: Ratio 18:1 */
+        --fg-muted: #94a3b8;         /* Slate-400: Ratio 7.5:1 - WCAG AAA */
         --border-color: rgba(255, 255, 255, 0.14);
-        --accent: #6366f1; /* Indigo-500: Ratio 6.8:1 */
-        --accent-soft: #818cf8; /* Indigo-400: Ratio 8.5:1 */
+        --accent: #6366f1;           /* Indigo-500: Ratio 6.8:1 */
+        --accent-soft: #818cf8;      /* Indigo-400: Ratio 8.5:1 */
         --accent-muted: rgba(99, 102, 241, 0.22);
         --surface: #111827;
         --surface-raised: rgba(255, 255, 255, 0.06);
@@ -253,6 +253,7 @@ img {
     letter-spacing: -0.015em;
     max-width: 34ch;
     text-wrap: pretty;
+    color: #f8fafc;
 }
 
 .body-copy {
