@@ -1,48 +1,53 @@
 <!doctype html>
-<html lang="es" class="dark">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
 
-    <!-- Google Fonts: Space Grotesk -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- SEO básico -->
-    <title>Daniel Paredes Mendoza | Frontend Developer - Vue.js, TypeScript y SaaS</title>
-    <meta name="description" content="Portafolio de Daniel Paredes Mendoza (DevRunner), Frontend Developer con más de 3 años de experiencia en Vue.js 3, TypeScript y plataformas SaaS: facturación electrónica, inventario, POS y dashboards de negocio. CV disponible en español e inglés." />
-    <meta name="keywords" content="frontend developer, vuejs, vue.js, typescript, saas, tailwind, vite, pinia, developer, portfolio, daniel paredes mendoza, devrunner" />
+    <title>Daniel Paredes Mendoza / Desarrollador Frontend</title>
+    <meta name="description" content="Desarrollador frontend en Moyobamba, Perú. Más de 3 años construyendo sistemas de facturación electrónica, inventario, POS y dashboards SaaS con Vue 3, TypeScript y Vite." />
     <meta name="author" content="Daniel Paredes Mendoza (DevRunner)" />
     <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="frontend developer, vuejs, vue.js, typescript, saas, tailwind, vite, pinia, developer, portfolio, daniel paredes mendoza, devrunner" />
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dangosw.netlify.app/" />
-    <meta property="og:title" content="Daniel Paredes Mendoza | Frontend Developer - Vue.js, TypeScript y SaaS" />
-    <meta property="og:description" content="Portafolio de Daniel Paredes Mendoza (DevRunner), Frontend Developer con más de 3 años de experiencia en Vue.js 3, TypeScript y plataformas SaaS. CV disponible en español e inglés." />
-    <meta property="og:image" content="https://dangosw.netlify.app/temp-pic.webp?v=2" />
+    <meta property="og:title" content="Daniel Paredes Mendoza / Desarrollador Frontend" />
+    <meta property="og:description" content="Desarrollador frontend en Moyobamba, Perú. Sistemas de facturación electrónica, inventario, POS y dashboards SaaS con Vue 3, TypeScript y Vite." />
+    <meta property="og:image" content="https://dangosw.netlify.app/og-cover.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Daniel Paredes Mendoza mirando el paisaje de Moyobamba" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:site_name" content="Portafolio de Daniel Paredes Mendoza" />
+    <meta property="og:site_name" content="Daniel Paredes Mendoza" />
 
-    <!-- Twitter Card -->
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://dangosw.netlify.app/" />
-    <meta name="twitter:title" content="Daniel Paredes Mendoza | Frontend Developer - Vue.js, TypeScript y SaaS" />
-    <meta name="twitter:description" content="Portafolio de Daniel Paredes Mendoza (DevRunner), Frontend Developer con más de 3 años de experiencia en Vue.js 3, TypeScript y plataformas SaaS." />
-    <meta name="twitter:image" content="https://dangosw.netlify.app/temp-pic.webp?v=2" />
+    <meta name="twitter:title" content="Daniel Paredes Mendoza / Desarrollador Frontend" />
+    <meta name="twitter:description" content="Sistemas de facturación electrónica, inventario, POS y dashboards SaaS con Vue 3, TypeScript y Vite." />
+    <meta name="twitter:image" content="https://dangosw.netlify.app/og-cover.jpg" />
+    <meta name="twitter:image:alt" content="Daniel Paredes Mendoza mirando el paisaje de Moyobamba" />
 
-    <!-- Canonical -->
     <link rel="canonical" href="https://dangosw.netlify.app/" />
+    <meta name="theme-color" content="#EDF1E8" />
 
-    <!-- Tema del navegador -->
-    <meta name="theme-color" content="#0B1120" />
+    <!-- LCP portrait: give the browser a head start before Vue mounts -->
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      href="/media/profile/profile-640.avif"
+      imagesrcset="/media/profile/profile-320.avif 320w, /media/profile/profile-480.avif 480w, /media/profile/profile-640.avif 640w, /media/profile/profile-960.avif 960w"
+      imagesizes="(max-width: 1023px) 92vw, 460px"
+      fetchpriority="high"
+    />
 
-    <!-- Datos estructurados para buscadores y agentes de IA -->
+    <!-- Datos estructurados -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -51,10 +56,11 @@
       "name": "Daniel Paredes Mendoza",
       "alternateName": "DevRunner",
       "url": "https://dangosw.netlify.app/",
-      "image": "https://dangosw.netlify.app/temp-pic.webp",
+      "image": "https://dangosw.netlify.app/media/profile/profile-640.webp",
       "jobTitle": "Frontend Developer",
       "description": "Frontend Developer con más de 3 años de experiencia construyendo aplicaciones SPA para productos SaaS con Vue.js 3, TypeScript y Vite. Experiencia en facturación electrónica, inventario, sistemas POS y dashboards de negocio.",
       "nationality": "Peruana",
+      "email": "mailto:dannyslowgoswell@gmail.com",
       "workLocation": {
         "@type": "Place",
         "address": "Moyobamba, San Martín, Perú"
@@ -83,7 +89,6 @@
         "Responsive Web Design",
         "Git",
         "GitLab",
-        "Docker",
         "Scrum",
         "Kanban"
       ],
@@ -118,22 +123,20 @@
   <body>
     <div id="app"></div>
     <noscript>
-      <main style="font-family: system-ui, sans-serif; padding: 2rem; max-width: 60rem; margin: 0 auto; color: #e2e8f0; background: #0b1120; min-height: 100vh;">
-        <h1>Daniel Paredes Mendoza — Frontend Developer</h1>
-        <p><strong>DevRunner</strong> · Moyobamba, San Martín, Perú</p>
+      <main style="font-family: system-ui, sans-serif; padding: 2rem; max-width: 58rem; margin: 0 auto; color: #0F211A; background: #EDF1E8; min-height: 100vh; line-height: 1.6;">
+        <h1>Daniel Paredes Mendoza — Desarrollador Frontend</h1>
+        <p><strong>Moyobamba, San Martín, Perú</strong></p>
         <p>
-          Frontend Developer con más de 3 años de experiencia construyendo aplicaciones web SPA para productos
-          SaaS con Vue.js 3, TypeScript y Vite. Experiencia en funcionalidades de facturación electrónica,
-          gestión de inventario, sistemas de punto de venta (POS) y dashboards de negocio. Especializado en
-          interfaces responsivas, componentes reutilizables, integración de APIs REST con Axios y gestión de
-          estado con Pinia.
+          Más de 3 años construyendo plataformas de facturación electrónica, inventario, punto de venta
+          y dashboards SaaS con Vue 3, TypeScript y Vite.
         </p>
         <h2>Proyectos</h2>
         <ul>
-          <li><strong>Zenda Comercial / Zenda Pharma:</strong> ERP, facturación electrónica e inventario conectados a SUNAT.</li>
-          <li><strong>Verydis:</strong> plataforma de gestión de personal en campo con control de asistencias y tareas Kanban.</li>
-          <li><strong>Flizzy:</strong> sistema POS para restaurantes con roles, permisos y reportes de caja.</li>
-          <li><strong>Biometric Tracker / JNICAMP Demo:</strong> aplicaciones web integradas con servicios backend.</li>
+          <li><strong>Zenda Comercial:</strong> facturación electrónica, inventario y caja conectados a SUNAT.</li>
+          <li><strong>Verydis:</strong> gestión de personal en campo con asistencias, viáticos y tareas Kanban.</li>
+          <li><strong>Flizzy:</strong> POS para restaurantes con roles, modo mozo y reportes de caja.</li>
+          <li><strong>Zenda Pharma:</strong> ERP para boticas con ventas, stock y comprobantes electrónicos.</li>
+          <li><strong>As-TomGas:</strong> sitio web para una empresa de instalación de gas natural.</li>
         </ul>
         <h2>Enlaces</h2>
         <ul>
@@ -141,6 +144,7 @@
           <li><a href="/cv/Daniel_Paredes_Frontend_Developer_EN.pdf">CV en inglés (PDF)</a></li>
           <li><a href="https://github.com/DanGosw">GitHub</a></li>
           <li><a href="https://www.linkedin.com/in/daniel-paredes-a17b89344/">LinkedIn</a></li>
+          <li><a href="mailto:dannyslowgoswell@gmail.com">dannyslowgoswell@gmail.com</a></li>
         </ul>
       </main>
     </noscript>

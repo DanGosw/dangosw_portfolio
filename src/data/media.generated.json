@@ -1,0 +1,302 @@
+{
+  "profile": {
+    "base": "/media/profile/profile",
+    "width": 960,
+    "height": 947,
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBQCdASoUABQAPwFyrlKrJqQiqAqpYCAJZAC38YyAZOUZdlgYMkUc2GdZYV/p/ogSx5QA/lRLlxG19PD90dHKvCMqpG/I0hM+S4azkNR6prM+TOSxT/36cMqC2CoqsAcP/MoEmuRkYph1MnYZoZMSO7+GVoN6rr/W/1UK6q3EWYcsmElLILHPBjGvANc+7OQT2lx3U4xyejr+dHiTAAAA",
+    "variants": [
+      160,
+      320,
+      480,
+      640,
+      960
+    ]
+  },
+  "projects": {
+    "as-tomgas": [
+      {
+        "base": "/media/projects/as-tomgas/1-astom-init",
+        "width": 2425,
+        "height": 1245,
+        "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwAwCdASoUAAoAPwFqrE8rJiQiMAgBYCAJZgCsAB5T6X0leSxM4AD8HusXE1CropyoeuNopdu80HCFhWNlsKO4a/R6uO+orUP2jWlZVjhPs8Mhe0kcCa9XB/Uz4gtrArB9e20CmPFrMAAA",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1600,
+          2425
+        ]
+      },
+      {
+        "base": "/media/projects/as-tomgas/2-astom-dash",
+        "width": 2425,
+        "height": 1245,
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAwCdASoUAAoAPwFurk+rJqQiMAgBYCAJaQAAelOLhPpgAP7vsayPEkwd213nCGa2Zcr/FaYxrIuQAAA=",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1600,
+          2425
+        ]
+      },
+      {
+        "base": "/media/projects/as-tomgas/3-astom-foot",
+        "width": 2425,
+        "height": 1245,
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAAoAPwForE6rJaQiMAgBYCAJZQDE2CHXYKjfbAgAAP7vzmvCp/Y+iuT1JOyG7RbmKIz6RYJo6oUlSIgfxFJNg6rgAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1600,
+          2425
+        ]
+      },
+      {
+        "base": "/media/projects/as-tomgas/4-astom-report",
+        "width": 1373,
+        "height": 696,
+        "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAwCdASoUAAoAPwFqrk8rJiQiMAgBYCAJZwDKAC0HrIAAAP7vb+UNG/KQJlBw/j/Sdzh2ZyW4AA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1373
+        ]
+      },
+      {
+        "base": "/media/projects/as-tomgas/5-astom-service",
+        "width": 2425,
+        "height": 1245,
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAoAPwFusFArJqSisAgBYCAJZwAAetFGkYOAAP7wDoVQLvFbtys0t20qUXH8AAA=",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1600,
+          2425
+        ]
+      },
+      {
+        "base": "/media/projects/as-tomgas/6-astom-task",
+        "width": 1229,
+        "height": 992,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAwCdASoUABAAPwFqrU6rJiQiMAgBYCAJZwDE2C0RQEIAAP7vjsaScMLnxHh0PG9z1azx08jSljJ/G1R1OxB5/AA=",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1229
+        ]
+      }
+    ],
+    "flizzy": [
+      {
+        "base": "/media/projects/flizzy/1-tables",
+        "width": 1521,
+        "height": 1249,
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUABAAPwFqrU8rJiQiMAgBYCAJaQAAW+i+wne+22d4AP7tSN0loCAlKIXAev8hAAA=",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1521
+        ]
+      },
+      {
+        "base": "/media/projects/flizzy/2-free-sale",
+        "width": 1524,
+        "height": 1251,
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAgCdASoUABAAPwFqrE8rJiQiMAgBYCAJaR9AAAU0IAD+8C0SI06383LWYOqdjdYAAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1524
+        ]
+      },
+      {
+        "base": "/media/projects/flizzy/3-till",
+        "width": 1524,
+        "height": 1247,
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAgCdASoUABAAPwFqrU8rJiQiMAgBYCAJaQAAeyAA/vAotFQnWW00J5iBAAAA",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1524
+        ]
+      },
+      {
+        "base": "/media/projects/flizzy/4-kardex",
+        "width": 1526,
+        "height": 1248,
+        "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAgCdASoUABAAPwFqrU8rJiQiMAgBYCAJaQAAeyAA/vArxLML2RTsOSYsJ8iEAAA=",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1526
+        ]
+      }
+    ],
+    "verydis": [
+      {
+        "base": "/media/projects/verydis/1-home",
+        "width": 1453,
+        "height": 1214,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoUABEAPwF2slOrJySoKAgBYCAJZQDJEBZmJFhYOCAA/u9vWzyBr1y1EAe9C6OZ6Yrfo0qMw6C6dHxsqJfNwoQA6XBTbVCv//k5FQAA",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1453
+        ]
+      },
+      {
+        "base": "/media/projects/verydis/2-dash",
+        "width": 1455,
+        "height": 1215,
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUABEAPwFys1IrJqSnqAqpYCAJaQDG9BWEoMiMegAA/u/QH8kifdKR1WgSm4euzLv90OP1LIgAAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1455
+        ]
+      },
+      {
+        "base": "/media/projects/verydis/3-buy",
+        "width": 1460,
+        "height": 1218,
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoUABEAPwFyrlCrJyQjsBgIAWAgCWcAw3AQ7/H7wBcO0vhvAAD+6tUF+uDvRlVoX4CORPQdZABayJW+MCxZ/4eST85r6DAIPCTtMm5m9ZUb0ywZl0AAAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1460
+        ]
+      },
+      {
+        "base": "/media/projects/verydis/4-viatic",
+        "width": 1516,
+        "height": 1253,
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUABEAPwFssE+rJiSiKA1RYCAJZwDMWBI2XNglz+hGmiAA/urLcvhsPim4CH184P+IHTcoy+SI70RfO5fSGVZNCEAAAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1516
+        ]
+      },
+      {
+        "base": "/media/projects/verydis/5-rend",
+        "width": 1519,
+        "height": 1250,
+        "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAwCdASoUABAAPwFqrU8rJiQiMAgBYCAJZwDLLC0HrIAAAP7vtautbD39udGw8luA+inKscagAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1519
+        ]
+      },
+      {
+        "base": "/media/projects/verydis/6-segui",
+        "width": 1521,
+        "height": 1249,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAwCdASoUABAAPwFsrU8rJiQiMAgBYCAJZ2ZAADc1o56gAP7vr04UJntBmzUyXKLLBjcNNZSooirtdGJtuRbgAAA=",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1521
+        ]
+      }
+    ],
+    "zenda-comercial": [
+      {
+        "base": "/media/projects/zenda-comercial/1-dash",
+        "width": 1525,
+        "height": 1253,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoUABAAPwFqrE6rJiQiMAgBYCAJZQDLLB6NjxLuAAD+56ivtnSCN0AhR2DJojm3aNAAEMGxYE+X5mrveAAAAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1525
+        ]
+      },
+      {
+        "base": "/media/projects/zenda-comercial/2-buy",
+        "width": 1521,
+        "height": 1084,
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAA4APwFqrE6rJiQiMAgBYCAJZwAAetCWf4AA/vBDaAIK75ChfwXo7uQ/TqSoAAA=",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1521
+        ]
+      },
+      {
+        "base": "/media/projects/zenda-comercial/3-till",
+        "width": 1519,
+        "height": 1081,
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAgCdASoUAA4APwFqrU8rJaQiMAgBYCAJaQAAfj4AAP7wRsjdDGmULEZwOlrq5jUAAA==",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1519
+        ]
+      },
+      {
+        "base": "/media/projects/zenda-comercial/4-buy-xml",
+        "width": 1530,
+        "height": 1107,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA4APwFysFArJySisAgBYCAJZwDImGlfSgC6kuRkAAD+/BgX/Qu7PHRRH+DHMHb06I1aoNpH8SDnoNyvNwAA",
+        "variants": [
+          160,
+          480,
+          800,
+          1200,
+          1530
+        ]
+      }
+    ],
+    "zenda-pharma": [
+      {
+        "base": "/media/projects/zenda-pharma/img",
+        "width": 752,
+        "height": 398,
+        "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4WAoAAAAQAAAAEwAACgAAQUxQSEYAAAABYBNJsqr0Re/9L+BLACWMTn6Mkhk3PFAQEQSTNNV2TFDnBWXuD3hA+KGacb6EN7qZcVwWNWbcP+HLvR7rQbj/iY0j0tAAVlA4IEgAAABQAwCdASoUAAsAPwFIu1grIqckmAFgIAlnAABcyrwSpZhpAAD+3ySaP32fvn0Y1iwDmUNYdHIY4wMtK+K3hBKc/bh4LEcLrAA=",
+        "variants": [
+          160,
+          480,
+          752
+        ]
+      }
+    ]
+  }
+}

@@ -6,22 +6,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
-    "@lucide/vue": "^1.21.0",
-    "@vueuse/core": "^14.3.0",
-    "vue": "^3.5.34",
-    "vue-i18n": "^11.4.6"
+    "@lucide/vue": "^1.70.0",
+    "vue": "^3.5.45",
+    "vue-i18n": "^11.4.18"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.1",
-    "@types/node": "^24.12.3",
-    "@vitejs/plugin-vue": "^6.0.6",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@vitejs/plugin-vue": "^6.0.10",
     "@vue/tsconfig": "^0.9.1",
-    "tailwindcss": "^4.3.1",
-    "typescript": "~6.0.2",
-    "vite": "^8.0.12",
-    "vue-tsc": "^3.2.8"
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14"
   }
 }

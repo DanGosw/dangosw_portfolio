@@ -1,101 +1,150 @@
 {
+  "meta": {
+    "title": "Daniel Paredes Mendoza / Desarrollador Frontend",
+    "description": "Desarrollador frontend en Moyobamba, Perú. Más de 3 años construyendo sistemas de facturación electrónica, inventario, POS y dashboards SaaS con Vue 3, TypeScript y Vite."
+  },
   "nav": {
-    "home": "Inicio",
-    "about": "Sobre mí",
+    "label": "Navegación principal",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "about": "Perfil",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "themeLabel": "Tema de color",
+    "themeSystem": "Sistema",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro"
   },
+  "language": {
+    "label": "Idioma"
+  },
+  "skip": "Saltar al contenido",
   "hero": {
-    "name": "Daniel Paredes Mendoza",
-    "title": "Desarrollador Frontend",
-    "subtitle": "Construyendo aplicaciones web escalables, interfaces interactivas y plataformas SaaS modernas.",
-    "description": "Más de 3 años de experiencia profesional construyendo sistemas administrativos, aplicaciones web en producción y arquitecturas frontend enfocadas en usabilidad, escalabilidad y mantenibilidad.",
-    "viewProjects": "Ver Proyectos",
-    "contact": "Contactar",
-    "downloadCV": "Descargar CV"
-  },
-  "stack": {
-    "vue": "Vue",
-    "typeScript": "TypeScript",
-    "javaScript": "JavaScript",
-    "tailwind": "Tailwind",
-    "vite": "Vite",
-    "saas": "SaaS",
-    "uiArchitecture": "Arquitectura UI",
-    "shadcn": "Shadcn/vue",
-    "primevue": "PrimeVue",
-    "naiveUI": "Naive UI"
-  },
-  "projects": {
-    "title": "Proyectos",
-    "work": "En Empresa",
-    "personal": "Personales",
-    "viewProject": "Ver Proyecto",
-    "items": {
-      "zendaComercial": {
-        "title": "Zenda Comercial",
-        "description": "Sistema de facturación electrónica con gestión de inventario y control de stock. Módulos de ventas, compras, manejo y reportes de caja. Conectado a SUNAT."
-      },
-      "zendaPharma": {
-        "title": "Zenda Pharma",
-        "description": "Sistema ERP orientado a boticas conectado a SUNAT. Gestión de usuarios, roles, ventas, productos, gestión de inventario, control de stock y reportes de caja."
-      },
-      "verydis": {
-        "title": "Verydis",
-        "description": "Sistema de gestión de personal en campo con requerimientos conectados a SUNAT. Control de asistencias, tareas tipo Kanban/Trello y dashboard de productividad."
-      },
-      "flizzy": {
-        "title": "Flizzy",
-        "description": "Sistema POS para restaurantes con roles y permisos por usuario. Modo de venta y mozos para agilizar pedidos. Manejo de insumos, productos y reportes de caja."
-      },
-      "asTomGas": {
-        "title": "As-TomGas",
-        "description": "Landing page para empresa de instalación y mantenimiento de tuberías de gas natural. Venta e instalación de calefones certificados con respaldo técnico."
-      }
+    "location": "Moyobamba, San Martín / Perú",
+    "availability": "Disponible para trabajo remoto",
+    "titleLine1": "Interfaces",
+    "titleLine2": "claras para",
+    "titleLine3": "operaciones",
+    "titleLine4": "complejas.",
+    "intro": "Desarrollador frontend enfocado en construir plataformas web de facturación, inventario y punto de venta con Vue 3, TypeScript y Vite.",
+    "primaryCta": "Ver proyectos",
+    "secondaryCta": "Descargar CV",
+    "tertiaryCta": "Escríbeme",
+    "portraitAlt": "Daniel Paredes mirando el paisaje montañoso de Moyobamba",
+    "portraitCaption": "Moyobamba, San Martín",
+    "portraitNote": "Trabajo en remoto desde la selva alta del Perú.",
+    "record": {
+      "experienceLabel": "Experiencia",
+      "experienceValue": "3+ años en producción",
+      "baseLabel": "Base",
+      "baseValue": "Moyobamba, Perú",
+      "focusLabel": "Enfoque",
+      "focusValue": "SaaS / ERP / POS",
+      "languagesLabel": "Idiomas",
+      "languagesValue": "Español / Inglés"
     }
   },
   "about": {
-    "title": "Sobre Mí",
-    "trajectory": "Trayectoria",
-    "trajectoryP1": "Más de 3 años desarrollando interfaces de usuario modernas y escalables. Especializado en ecosistemas Vue.js, he trabajado en sistemas SaaS administrativos, portales de clientes y dashboards analytics. Mi enfoque está en crear experiencias de usuario intuitivas y código mantenible.",
-    "trajectoryP2": "A lo largo de mi carrera he colaborado con equipos de desarrollo para construir soluciones que van desde landing pages hasta sistemas ERP completos conectados a SUNAT, siempre priorizando la calidad del código y la experiencia del usuario final.",
-    "skills": "Habilidades",
-    "skillsList": {
-      "frontend": "Desarrollo Frontend",
-      "frontendDesc": "Vue 3, TypeScript, Tailwind CSS, componentes reutilizables y arquitectura de componentes.",
-      "uiux": "Diseño UI/UX",
-      "uiuxDesc": "Diseño de interfaces modernas, responsivas y centradas en la experiencia del usuario.",
-      "performance": "Rendimiento",
-      "performanceDesc": "Optimización de bundle, lazy loading, code splitting y métricas de rendimiento.",
-      "saas": "Plataformas SaaS",
-      "saasDesc": "Desarrollo de plataformas escalables con roles, permisos y módulos administrativos."
+    "title": "Perfil",
+    "lead": "Trabajo donde el detalle operativo importa: una factura, un stock, una caja, un permiso.",
+    "p1": "Llevo más de tres años construyendo interfaces para sistemas administrativos que se usan todos los días. He trabajado en módulos de facturación electrónica conectados a SUNAT, control de inventario, punto de venta y dashboards de negocio.",
+    "p2": "Mi trabajo empieza entendiendo la regla de negocio y termina en una interfaz que el equipo puede usar sin manual. Me interesa el código mantenible, los componentes reutilizables y el rendimiento en conexiones reales.",
+    "capabilitiesTitle": "Cómo trabajo",
+    "capabilities": {
+      "architecture": {
+        "title": "Arquitectura de componentes",
+        "description": "Sistemas de UI reutilizables, consistentes y fáciles de extender."
+      },
+      "apis": {
+        "title": "APIs y estado",
+        "description": "Integración de APIs REST con Axios y estado predecible con Pinia."
+      },
+      "performance": {
+        "title": "Rendimiento real",
+        "description": "Carga diferida, imágenes optimizadas y presupuestos de peso."
+      },
+      "business": {
+        "title": "Reglas de negocio",
+        "description": "Roles, permisos, validaciones y flujos que resisten el uso diario."
+      }
     },
-    "passions": "Lo que me mueve",
-    "passionsList": {
-      "coding": "Crear proyectos personales y experimentar con nuevas tecnologías",
-      "ui": "Diseñar interfaces limpias y funcionales",
-      "opensource": "Aprender de código abierto y contribuir a la comunidad",
-      "coffee": "Cafeína como combustible para programar"
+    "recordTitle": "Ficha",
+    "stackTitle": "Stack principal",
+    "record": {
+      "locationLabel": "Ubicación",
+      "locationValue": "Moyobamba, San Martín, Perú",
+      "educationLabel": "Formación",
+      "educationValue": "IESTP Carlos Salazar Romero",
+      "languagesLabel": "Idiomas",
+      "languagesValue": "Español nativo / Inglés técnico",
+      "workLabel": "Modalidad",
+      "workValue": "Remoto / híbrido"
+    }
+  },
+  "projects": {
+    "title": "Sistemas y sitios",
+    "lead": "Productos en los que he trabajado, de la primera pantalla a los reportes de cierre.",
+    "work": "En producción",
+    "personal": "Proyecto personal",
+    "openDemo": "Abrir demo",
+    "expand": "Ampliar",
+    "viewImage": "Ver captura {current} de {total}",
+    "lightboxLabel": "Galería de {title}",
+    "previous": "Captura anterior",
+    "next": "Siguiente captura",
+    "close": "Cerrar galería",
+    "categories": {
+      "retail": "ERP / Comercio",
+      "field": "Operaciones de campo",
+      "pos": "POS / Restaurantes",
+      "pharma": "ERP / Boticas",
+      "landing": "Sitio web / Servicios"
+    },
+    "items": {
+      "zendaComercial": {
+        "title": "Zenda Comercial",
+        "description": "Facturación electrónica, inventario y caja para comercios. Ventas, compras, reportes de cierre y conexión con SUNAT."
+      },
+      "verydis": {
+        "title": "Verydis",
+        "description": "Gestión de personal en campo: asistencias, viáticos, tareas tipo Kanban y dashboard de productividad."
+      },
+      "flizzy": {
+        "title": "Flizzy",
+        "description": "POS para restaurantes con roles por usuario, modo mozo y control de insumos, productos y caja."
+      },
+      "zendaPharma": {
+        "title": "Zenda Pharma",
+        "description": "ERP para boticas con usuarios y roles, ventas, productos, stock y reportes de caja conectados a SUNAT."
+      },
+      "asTomGas": {
+        "title": "As-TomGas",
+        "description": "Sitio para una empresa de instalación de gas natural: servicios, calefones certificados y contacto directo."
+      }
     }
   },
   "contact": {
-    "title": "Contacto",
-    "subtitle": "¿Trabajamos juntos?",
-    "description": "Estoy disponible para proyectos freelance, oportunidades full-time o simplemente para charlar sobre tecnología.",
-    "openTo": "Siempre abierto a nuevos retos y oportunidades de colaboración.",
-    "email": "Email",
+    "title": "Hablemos de tu próximo sistema.",
+    "lead": "Si buscas a alguien que entienda el negocio detrás de la interfaz, escríbeme.",
+    "emailLabel": "Correo",
+    "copyEmail": "Copiar correo",
+    "copied": "Correo copiado",
+    "phoneLabel": "Teléfono / WhatsApp",
+    "copyPhone": "Copiar número",
+    "phoneCopied": "Número copiado",
+    "whatsapp": "WhatsApp",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "indeed": "Indeed",
-    "cvEs": "CV (Español)",
-    "cvEn": "CV (Inglés)"
+    "networks": "Redes",
+    "cvTitle": "Currículum",
+    "cvEs": "CV en español",
+    "cvEn": "CV en inglés",
+    "location": "Moyobamba, San Martín, Perú",
+    "availability": "Abierto a roles remotos y proyectos freelance."
   },
   "footer": {
-    "copyright": "© 2026 DevRunner. Todos los derechos reservados.",
-    "builtWith": "Hecho con"
-  },
-  "language": {
-    "es": "Español",
-    "en": "English"
+    "built": "Diseñado y construido con Vue 3, Vite y Tailwind.",
+    "rights": "Todos los derechos reservados.",
+    "top": "Volver arriba"
   }
 }
