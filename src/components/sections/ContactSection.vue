@@ -64,7 +64,7 @@ onUnmounted(() => {
 		<div class="shell relative">
 			<div class="grid gap-12 lg:grid-cols-12 lg:gap-10">
 				<div class="lg:col-span-8">
-					<h2 class="section-title">{{ t("contact.title") }}</h2>
+					<h2 class="section-title text-white!">{{ t("contact.title") }}</h2>
 					<p class="mt-5 max-w-[44ch] text-[1.02rem] leading-7" style="color: rgba(240, 240, 248, 0.8);">
 						{{ t("contact.lead") }}
 					</p>

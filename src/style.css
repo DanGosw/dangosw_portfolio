@@ -242,7 +242,7 @@ img {
     font-weight: 600;
     letter-spacing: -0.04em;
     text-wrap: balance;
-    color: #f8fafc;
+    color: var(--fg);
 }
 
 .lead {
