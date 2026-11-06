@@ -65,17 +65,17 @@ onUnmounted(() => {
 			<div class="grid gap-12 lg:grid-cols-12 lg:gap-10">
 				<div class="lg:col-span-8">
 					<h2 class="section-title">{{ t("contact.title") }}</h2>
-					<p class="mt-5 max-w-[44ch] text-[1.02rem] leading-7" style="color: rgba(240, 240, 248, 0.6);">
+					<p class="mt-5 max-w-[44ch] text-[1.02rem] leading-7" style="color: rgba(240, 240, 248, 0.8);">
 						{{ t("contact.lead") }}
 					</p>
 
 					<div class="mt-10 flex flex-wrap items-baseline gap-x-4 gap-y-2">
 						<p class="meta">{{ t("contact.emailLabel") }}</p>
 						<button v-if="canCopy" type="button"
-						        class="inline-flex items-center gap-1.5 border-0 bg-transparent p-0 font-mono text-[0.72rem] underline underline-offset-4 transition-colors"
-						        style="color: rgba(240, 240, 248, 0.5); text-decoration-color: rgba(240, 240, 248, 0.25);"
+						        class="inline-flex items-center gap-1.5 border-0 bg-transparent p-0 font-mono text-[0.78rem] underline underline-offset-4 transition-colors"
+						        style="color: rgba(240, 240, 248, 0.78); text-decoration-color: rgba(240, 240, 248, 0.4);"
 						        onmouseenter="this.style.color='var(--accent-soft)'"
-						        onmouseleave="this.style.color='rgba(240, 240, 248, 0.5)'" @click="copyEmail">
+						        onmouseleave="this.style.color='rgba(240, 240, 248, 0.78)'" @click="copyEmail">
 							<Copy class="h-3 w-3" aria-hidden="true"/>
 							{{ copyEmailLabel }}
 						</button>
@@ -90,10 +90,10 @@ onUnmounted(() => {
 					<div class="mt-8 flex flex-wrap items-baseline gap-x-4 gap-y-2">
 						<p class="meta">{{ t("contact.phoneLabel") }}</p>
 						<button v-if="canCopy" type="button"
-						        class="inline-flex items-center gap-1.5 border-0 bg-transparent p-0 font-mono text-[0.72rem] underline underline-offset-4 transition-colors"
-						        style="color: rgba(240, 240, 248, 0.5); text-decoration-color: rgba(240, 240, 248, 0.25);"
+						        class="inline-flex items-center gap-1.5 border-0 bg-transparent p-0 font-mono text-[0.78rem] underline underline-offset-4 transition-colors"
+						        style="color: rgba(240, 240, 248, 0.78); text-decoration-color: rgba(240, 240, 248, 0.4);"
 						        onmouseenter="this.style.color='var(--accent-soft)'"
-						        onmouseleave="this.style.color='rgba(240, 240, 248, 0.5)'" @click="copyPhone">
+						        onmouseleave="this.style.color='rgba(240, 240, 248, 0.78)'" @click="copyPhone">
 							<Copy class="h-3 w-3" aria-hidden="true"/>
 							{{ copyPhoneLabel }}
 						</button>
@@ -104,10 +104,10 @@ onUnmounted(() => {
 					<div class="mt-2 flex flex-wrap items-center gap-3">
 						<a class="email-link" :href="`tel:${profile.phoneRaw}`"> {{ profile.phone }} </a>
 						<a :href="profile.whatsappHref" target="_blank" rel="noopener noreferrer"
-						   class="inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono text-[0.74rem] font-medium transition-all"
-						   style="background: rgba(34, 197, 94, 0.16); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3);"
-						   onmouseenter="this.style.background='rgba(34, 197, 94, 0.26)'; this.style.borderColor='#4ade80'"
-						   onmouseleave="this.style.background='rgba(34, 197, 94, 0.16)'; this.style.borderColor='rgba(74, 222, 128, 0.3)'">
+						   class="inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono text-[0.76rem] font-medium transition-all"
+						   style="background: rgba(34, 197, 94, 0.18); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.35);"
+						   onmouseenter="this.style.background='rgba(34, 197, 94, 0.28)'; this.style.borderColor='#4ade80'"
+						   onmouseleave="this.style.background='rgba(34, 197, 94, 0.18)'; this.style.borderColor='rgba(74, 222, 128, 0.35)'">
 							<MessageCircle class="h-3.5 w-3.5" aria-hidden="true"/>
 							{{ t("contact.whatsapp") }}
 						</a>
@@ -145,7 +145,7 @@ onUnmounted(() => {
 						</li>
 					</ul>
 
-					<p class="mt-8 max-w-[30ch] text-[0.92rem] leading-6" style="color: rgba(240, 240, 248, 0.6);">
+					<p class="mt-8 max-w-[30ch] text-[0.92rem] leading-6" style="color: rgba(240, 240, 248, 0.8);">
 						{{ t("contact.availability") }}
 					</p>
 					<p class="meta mt-3 flex items-center gap-2">

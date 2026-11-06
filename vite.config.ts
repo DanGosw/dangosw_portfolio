@@ -2,20 +2,23 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import tailwindcss from "@tailwindcss/vite";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
-    plugins: [
-        vue(),
-        tailwindcss()
-    ],
-    server: {
-        host: true,
-        port: 5190
-    },
-    resolve: {
-        alias: {
-            "@": path.resolve(__dirname, "./src")
-        }
-    }
+	plugins: [
+		vue(),
+		tailwindcss()
+	],
+	server: {
+		host: true,
+		port: 5190
+	},
+	resolve: {
+		alias: {
+			"@": path.resolve(__dirname, "./src")
+		}
+	}
 });

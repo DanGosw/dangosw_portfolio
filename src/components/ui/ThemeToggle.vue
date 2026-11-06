@@ -42,7 +42,9 @@ const options = computed(() => [
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0.35rem 0.45rem;
+	min-width: 36px;
+	min-height: 36px;
+	padding: 0.4rem 0.55rem;
 	border: 0;
 	border-radius: 4px;
 	background: transparent;
