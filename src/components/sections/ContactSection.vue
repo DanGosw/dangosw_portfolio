@@ -73,8 +73,7 @@ onUnmounted(() => {
 						<p class="meta">{{ t("contact.emailLabel") }}</p>
 						<button v-if="canCopy" type="button"
 						        class="inline-flex items-center gap-1.5 border-0 bg-transparent p-0 font-mono text-[0.78rem] underline underline-offset-4 transition-colors"
-						        style="color: rgba(240, 240, 248, 0.78); text-decoration-color: rgba(240, 240, 248, 0.4);"
-						        onmouseenter="this.style.color='var(--accent-soft)'"
+						        style="text-decoration-color: rgba(240, 240, 248, 0.4);" onmouseenter="this.style.color='var(--accent-soft)'"
 						        onmouseleave="this.style.color='rgba(240, 240, 248, 0.78)'" @click="copyEmail">
 							<Copy class="h-3 w-3" aria-hidden="true"/>
 							{{ copyEmailLabel }}
